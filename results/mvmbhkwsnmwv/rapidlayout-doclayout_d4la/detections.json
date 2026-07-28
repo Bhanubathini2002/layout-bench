@@ -1,0 +1,139 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.338
+  },
+  "num_detections": 12,
+  "class_counts": {
+    "Reference": 2,
+    "RegionList": 2,
+    "RegionTitle": 5,
+    "Figure": 1,
+    "Author": 1,
+    "OtherText": 1
+  },
+  "detections": [
+    {
+      "label": "Reference",
+      "score": 0.9875483512878418,
+      "box": [
+        185.5,
+        1186.6,
+        1565.9,
+        2053.3
+      ]
+    },
+    {
+      "label": "RegionList",
+      "score": 0.9795882701873779,
+      "box": [
+        188.6,
+        725.5,
+        1428.0,
+        981.3
+      ]
+    },
+    {
+      "label": "RegionList",
+      "score": 0.9652174711227417,
+      "box": [
+        189.1,
+        475.9,
+        1563.8,
+        599.5
+      ]
+    },
+    {
+      "label": "RegionTitle",
+      "score": 0.9189952611923218,
+      "box": [
+        194.1,
+        1118.1,
+        424.0,
+        1151.5
+      ]
+    },
+    {
+      "label": "RegionTitle",
+      "score": 0.9053348302841187,
+      "box": [
+        191.1,
+        393.8,
+        573.0,
+        436.2
+      ]
+    },
+    {
+      "label": "Reference",
+      "score": 0.9049181342124939,
+      "box": [
+        190.7,
+        2168.7,
+        1542.7,
+        2320.5
+      ]
+    },
+    {
+      "label": "RegionTitle",
+      "score": 0.9014582633972168,
+      "box": [
+        191.6,
+        645.7,
+        374.9,
+        680.5
+      ]
+    },
+    {
+      "label": "RegionTitle",
+      "score": 0.8830907344818115,
+      "box": [
+        196.1,
+        2096.0,
+        563.6,
+        2133.6
+      ]
+    },
+    {
+      "label": "Figure",
+      "score": 0.8778517246246338,
+      "box": [
+        1414.1,
+        172.6,
+        1535.9,
+        345.7
+      ]
+    },
+    {
+      "label": "RegionTitle",
+      "score": 0.875246524810791,
+      "box": [
+        191.4,
+        1042.1,
+        588.1,
+        1077.9
+      ]
+    },
+    {
+      "label": "Author",
+      "score": 0.7991988062858582,
+      "box": [
+        187.7,
+        194.9,
+        685.0,
+        239.4
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.7047448754310608,
+      "box": [
+        193.5,
+        248.9,
+        852.5,
+        318.4
+      ]
+    }
+  ]
+}
