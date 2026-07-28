@@ -1,0 +1,97 @@
+{
+  "model": "docling-egret-xlarge",
+  "meta": {
+    "repo": "docling-project/docling-layout-egret-xlarge",
+    "threshold": 0.5,
+    "device": "cuda",
+    "num_classes": 17
+  },
+  "num_detections": 8,
+  "class_counts": {
+    "Section-header": 1,
+    "Text": 4,
+    "Picture": 3
+  },
+  "detections": [
+    {
+      "label": "Section-header",
+      "score": 0.8053259253501892,
+      "box": [
+        205.8,
+        731.4,
+        1005.9,
+        880.1
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.8049386739730835,
+      "box": [
+        207.0,
+        1059.1,
+        697.1,
+        1091.5
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.784982442855835,
+      "box": [
+        206.0,
+        1134.1,
+        522.9,
+        1164.2
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.7586647272109985,
+      "box": [
+        1.2,
+        3.1,
+        2478.2,
+        1396.1
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.682550311088562,
+      "box": [
+        208.1,
+        900.4,
+        768.4,
+        947.6
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.6572240591049194,
+      "box": [
+        225.4,
+        140.3,
+        402.5,
+        297.2
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.6550522446632385,
+      "box": [
+        209.1,
+        977.8,
+        490.2,
+        1011.4
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.6549162864685059,
+      "box": [
+        863.0,
+        1258.6,
+        1005.1,
+        1395.0
+      ]
+    }
+  ]
+}

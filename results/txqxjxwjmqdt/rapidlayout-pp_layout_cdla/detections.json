@@ -1,0 +1,24 @@
+{
+  "model": "rapidlayout-pp_layout_cdla",
+  "meta": {
+    "model_type": "PP_LAYOUT_CDLA",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.097
+  },
+  "num_detections": 1,
+  "class_counts": {
+    "figure": 1
+  },
+  "detections": [
+    {
+      "label": "figure",
+      "score": 0.9498641490936279,
+      "box": [
+        1.9,
+        0.0,
+        2480.0,
+        1395.0
+      ]
+    }
+  ]
+}

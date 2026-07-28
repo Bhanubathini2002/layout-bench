@@ -1,0 +1,35 @@
+{
+  "model": "rapidlayout-pp_layout_publaynet",
+  "meta": {
+    "model_type": "PP_LAYOUT_PUBLAYNET",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.202
+  },
+  "num_detections": 2,
+  "class_counts": {
+    "figure": 1,
+    "title": 1
+  },
+  "detections": [
+    {
+      "label": "figure",
+      "score": 0.9365759491920471,
+      "box": [
+        34.2,
+        32.7,
+        2434.4,
+        1677.5
+      ]
+    },
+    {
+      "label": "title",
+      "score": 0.4148802161216736,
+      "box": [
+        48.8,
+        371.2,
+        231.8,
+        397.3
+      ]
+    }
+  ]
+}

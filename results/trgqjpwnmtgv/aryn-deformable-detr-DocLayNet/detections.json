@@ -1,0 +1,126 @@
+{
+  "model": "aryn-deformable-detr-DocLayNet",
+  "meta": {
+    "repo": "Aryn/deformable-detr-DocLayNet",
+    "threshold": 0.5,
+    "device": "cuda",
+    "num_classes": 12
+  },
+  "num_detections": 11,
+  "class_counts": {
+    "Section-header": 10,
+    "List-item": 1
+  },
+  "detections": [
+    {
+      "label": "Section-header",
+      "score": 0.6839906573295593,
+      "box": [
+        103.7,
+        1553.7,
+        548.6,
+        1615.8
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.6338657736778259,
+      "box": [
+        105.2,
+        1386.8,
+        456.3,
+        1424.9
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.600803792476654,
+      "box": [
+        101.8,
+        1033.1,
+        366.6,
+        1099.9
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5792600512504578,
+      "box": [
+        1068.7,
+        595.0,
+        1489.5,
+        659.7
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5727081894874573,
+      "box": [
+        105.0,
+        1339.8,
+        242.3,
+        1381.2
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5516113638877869,
+      "box": [
+        1071.6,
+        2235.9,
+        1425.5,
+        2321.5
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5417500138282776,
+      "box": [
+        1072.0,
+        2033.7,
+        1435.8,
+        2121.7
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.525420069694519,
+      "box": [
+        111.9,
+        115.9,
+        771.6,
+        194.7
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5204005837440491,
+      "box": [
+        1068.0,
+        1362.2,
+        1380.4,
+        1426.8
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5154688954353333,
+      "box": [
+        1069.2,
+        1001.6,
+        1383.1,
+        1062.4
+      ]
+    },
+    {
+      "label": "List-item",
+      "score": 0.5041213035583496,
+      "box": [
+        1077.8,
+        681.9,
+        1466.7,
+        750.9
+      ]
+    }
+  ]
+}
