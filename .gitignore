@@ -1,0 +1,15 @@
+# virtualenvs created by setup.ps1 / setup.sh
+.venvs/
+venv*/
+
+# rendered page cache (regenerated per document by bench.py)
+.cache/
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

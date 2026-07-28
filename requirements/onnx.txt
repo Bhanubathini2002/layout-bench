@@ -1,0 +1,6 @@
+# onnx venv: the 12 RapidLayout ONNX model types.
+# Kept separate because rapid-layout pins onnxruntime and opencv against the torch stack.
+rapid-layout>=1.2.1
+onnxruntime>=1.20
+numpy>=2.0
+pillow>=10

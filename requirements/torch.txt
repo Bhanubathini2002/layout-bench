@@ -1,0 +1,8 @@
+# torch venv: HuggingFace detection models (Docling heron/egret, Aryn, Table Transformer).
+# For CUDA, install torch first from the index for your driver, e.g.
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+torch>=2.4
+torchvision>=0.19
+transformers>=4.45
+timm>=1.0
+pillow>=10

@@ -1,0 +1,5 @@
+# unstructured venv: Unstructured's YOLOX layout model.
+# Isolated because unstructured-inference pins its own torch / onnxruntime combination.
+unstructured-inference>=1.0
+pillow>=10
+numpy>=2.0

@@ -1,0 +1,3 @@
+# base venv: PDF rendering + report building. No models.
+PyMuPDF>=1.24
+pillow>=10
