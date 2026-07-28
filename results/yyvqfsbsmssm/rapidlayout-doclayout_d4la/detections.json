@@ -1,0 +1,46 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.836
+  },
+  "num_detections": 3,
+  "class_counts": {
+    "RegionKV": 1,
+    "OtherText": 1,
+    "DocTitle": 1
+  },
+  "detections": [
+    {
+      "label": "RegionKV",
+      "score": 0.7174023985862732,
+      "box": [
+        1160.1,
+        2338.1,
+        1523.0,
+        2366.5
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.45324116945266724,
+      "box": [
+        1409.0,
+        2151.0,
+        1522.6,
+        2194.9
+      ]
+    },
+    {
+      "label": "DocTitle",
+      "score": 0.4291546046733856,
+      "box": [
+        58.2,
+        2230.9,
+        1522.3,
+        2306.6
+      ]
+    }
+  ]
+}

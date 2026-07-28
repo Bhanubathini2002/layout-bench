@@ -1,0 +1,25 @@
+{
+  "model": "docling-egret-xlarge",
+  "meta": {
+    "repo": "docling-project/docling-layout-egret-xlarge",
+    "threshold": 0.5,
+    "device": "cuda",
+    "num_classes": 17
+  },
+  "num_detections": 1,
+  "class_counts": {
+    "Picture": 1
+  },
+  "detections": [
+    {
+      "label": "Picture",
+      "score": 0.9090895056724548,
+      "box": [
+        201.7,
+        200.9,
+        1554.3,
+        2272.7
+      ]
+    }
+  ]
+}

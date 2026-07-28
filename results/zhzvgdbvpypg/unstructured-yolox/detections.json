@@ -1,0 +1,33 @@
+{
+  "model": "unstructured-yolox",
+  "meta": {
+    "model": "yolox (yolox_l)"
+  },
+  "num_detections": 2,
+  "class_counts": {
+    "Picture": 1,
+    "Text": 1
+  },
+  "detections": [
+    {
+      "label": "Picture",
+      "score": 0.6435202956199646,
+      "box": [
+        339.2,
+        160.2,
+        1655.1,
+        1864.3
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.6080290079116821,
+      "box": [
+        613.1,
+        2332.9,
+        1680.7,
+        2397.5
+      ]
+    }
+  ]
+}

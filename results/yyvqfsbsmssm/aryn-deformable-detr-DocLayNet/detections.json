@@ -1,0 +1,25 @@
+{
+  "model": "aryn-deformable-detr-DocLayNet",
+  "meta": {
+    "repo": "Aryn/deformable-detr-DocLayNet",
+    "threshold": 0.5,
+    "device": "cuda",
+    "num_classes": 12
+  },
+  "num_detections": 1,
+  "class_counts": {
+    "Text": 1
+  },
+  "detections": [
+    {
+      "label": "Text",
+      "score": 0.7847509384155273,
+      "box": [
+        111.5,
+        372.6,
+        810.1,
+        774.5
+      ]
+    }
+  ]
+}

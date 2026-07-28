@@ -1,0 +1,55 @@
+{
+  "model": "rapidlayout-yolov8n_layout_general6",
+  "meta": {
+    "model_type": "YOLOV8N_LAYOUT_GENERAL6",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.046
+  },
+  "num_detections": 4,
+  "class_counts": {
+    "Text": 3,
+    "Title": 1
+  },
+  "detections": [
+    {
+      "label": "Text",
+      "score": 0.8946841955184937,
+      "box": [
+        115.2,
+        375.8,
+        824.4,
+        777.2
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.7544177770614624,
+      "box": [
+        113.2,
+        821.3,
+        876.0,
+        869.1
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.7540216445922852,
+      "box": [
+        58.5,
+        2228.6,
+        1524.0,
+        2372.3
+      ]
+    },
+    {
+      "label": "Title",
+      "score": 0.563002347946167,
+      "box": [
+        1410.3,
+        2149.9,
+        1525.4,
+        2195.8
+      ]
+    }
+  ]
+}

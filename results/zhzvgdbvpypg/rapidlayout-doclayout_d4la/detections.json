@@ -1,0 +1,76 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.834
+  },
+  "num_detections": 6,
+  "class_counts": {
+    "OtherText": 4,
+    "Table": 1,
+    "RegionKV": 1
+  },
+  "detections": [
+    {
+      "label": "OtherText",
+      "score": 0.7374531626701355,
+      "box": [
+        918.0,
+        594.7,
+        1050.6,
+        615.6
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.5937293767929077,
+      "box": [
+        698.0,
+        1250.8,
+        845.7,
+        1273.3
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.5777063965797424,
+      "box": [
+        642.8,
+        1304.2,
+        897.6,
+        1493.2
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.5425847172737122,
+      "box": [
+        856.6,
+        650.3,
+        1109.2,
+        874.5
+      ]
+    },
+    {
+      "label": "Table",
+      "score": 0.47477173805236816,
+      "box": [
+        245.9,
+        1405.3,
+        627.9,
+        1819.2
+      ]
+    },
+    {
+      "label": "RegionKV",
+      "score": 0.43602779507637024,
+      "box": [
+        625.3,
+        2327.9,
+        1667.5,
+        2396.6
+      ]
+    }
+  ]
+}

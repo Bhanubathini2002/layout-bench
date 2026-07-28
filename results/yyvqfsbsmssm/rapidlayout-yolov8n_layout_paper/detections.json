@@ -1,0 +1,35 @@
+{
+  "model": "rapidlayout-yolov8n_layout_paper",
+  "meta": {
+    "model_type": "YOLOV8N_LAYOUT_PAPER",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.056
+  },
+  "num_detections": 2,
+  "class_counts": {
+    "Figure caption": 1,
+    "Title": 1
+  },
+  "detections": [
+    {
+      "label": "Figure caption",
+      "score": 0.4205761253833771,
+      "box": [
+        78.6,
+        2163.8,
+        179.0,
+        2196.0
+      ]
+    },
+    {
+      "label": "Title",
+      "score": 0.41033095121383667,
+      "box": [
+        1413.7,
+        2153.9,
+        1521.7,
+        2193.1
+      ]
+    }
+  ]
+}

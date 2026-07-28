@@ -1,0 +1,35 @@
+{
+  "model": "rapidlayout-doclayout_docsynth",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSYNTH",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.86
+  },
+  "num_detections": 2,
+  "class_counts": {
+    "Picture": 1,
+    "Text": 1
+  },
+  "detections": [
+    {
+      "label": "Picture",
+      "score": 0.9668964147567749,
+      "box": [
+        199.7,
+        187.2,
+        1549.3,
+        2234.1
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.6645624041557312,
+      "box": [
+        626.9,
+        2328.5,
+        1672.4,
+        2396.9
+      ]
+    }
+  ]
+}

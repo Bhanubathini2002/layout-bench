@@ -1,0 +1,98 @@
+{
+  "model": "aryn-deformable-detr-DocLayNet",
+  "meta": {
+    "repo": "Aryn/deformable-detr-DocLayNet",
+    "threshold": 0.5,
+    "device": "cuda",
+    "num_classes": 12
+  },
+  "num_detections": 8,
+  "class_counts": {
+    "Text": 4,
+    "Picture": 2,
+    "Page-header": 1,
+    "Page-footer": 1
+  },
+  "detections": [
+    {
+      "label": "Text",
+      "score": 0.9308844208717346,
+      "box": [
+        210.9,
+        816.7,
+        1548.3,
+        1289.1
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.8914346694946289,
+      "box": [
+        210.2,
+        1303.7,
+        1545.9,
+        1579.7
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.7787960767745972,
+      "box": [
+        139.5,
+        -0.2,
+        299.9,
+        261.0
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.6861670613288879,
+      "box": [
+        994.8,
+        2142.7,
+        1536.7,
+        2236.0
+      ]
+    },
+    {
+      "label": "Page-header",
+      "score": 0.6222870945930481,
+      "box": [
+        1056.3,
+        164.9,
+        1604.7,
+        196.0
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.5961782336235046,
+      "box": [
+        1024.9,
+        586.0,
+        1248.9,
+        622.6
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.5814378261566162,
+      "box": [
+        1024.6,
+        343.5,
+        1534.4,
+        524.7
+      ]
+    },
+    {
+      "label": "Page-footer",
+      "score": 0.568840503692627,
+      "box": [
+        1279.3,
+        2371.7,
+        1540.2,
+        2458.0
+      ]
+    }
+  ]
+}

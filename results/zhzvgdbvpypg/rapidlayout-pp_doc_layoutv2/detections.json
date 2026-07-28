@@ -1,0 +1,35 @@
+{
+  "model": "rapidlayout-pp_doc_layoutv2",
+  "meta": {
+    "model_type": "PP_DOC_LAYOUTV2",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.471
+  },
+  "num_detections": 2,
+  "class_counts": {
+    "table": 1,
+    "footer": 1
+  },
+  "detections": [
+    {
+      "label": "table",
+      "score": 0.966204047203064,
+      "box": [
+        199.0,
+        200.0,
+        1548.0,
+        2223.0
+      ]
+    },
+    {
+      "label": "footer",
+      "score": 0.698802649974823,
+      "box": [
+        618.0,
+        2325.0,
+        1678.0,
+        2401.0
+      ]
+    }
+  ]
+}
