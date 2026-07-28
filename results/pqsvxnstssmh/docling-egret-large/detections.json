@@ -1,0 +1,117 @@
+{
+  "model": "docling-egret-large",
+  "meta": {
+    "repo": "docling-project/docling-layout-egret-large",
+    "threshold": 0.5,
+    "device": "cuda",
+    "num_classes": 17
+  },
+  "num_detections": 10,
+  "class_counts": {
+    "Section-header": 4,
+    "Text": 5,
+    "Page-footer": 1
+  },
+  "detections": [
+    {
+      "label": "Section-header",
+      "score": 0.7685413360595703,
+      "box": [
+        387.9,
+        303.8,
+        1364.1,
+        340.1
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.7473470568656921,
+      "box": [
+        403.4,
+        913.9,
+        1327.3,
+        949.6
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.7459941506385803,
+      "box": [
+        419.4,
+        1520.5,
+        1323.0,
+        1555.4
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.7454168796539307,
+      "box": [
+        184.9,
+        370.0,
+        1559.8,
+        784.0
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.6704400181770325,
+      "box": [
+        185.5,
+        976.4,
+        1559.1,
+        1461.5
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.6649003624916077,
+      "box": [
+        186.2,
+        1586.7,
+        1559.3,
+        1997.5
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.6518298983573914,
+      "box": [
+        842.4,
+        193.9,
+        951.4,
+        242.0
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.5245506167411804,
+      "box": [
+        1027.7,
+        979.6,
+        1559.8,
+        1465.1
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.5229041576385498,
+      "box": [
+        1026.5,
+        369.3,
+        1558.9,
+        789.0
+      ]
+    },
+    {
+      "label": "Page-footer",
+      "score": 0.50412517786026,
+      "box": [
+        868.5,
+        2327.6,
+        882.1,
+        2358.1
+      ]
+    }
+  ]
+}

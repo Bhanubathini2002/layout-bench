@@ -1,0 +1,65 @@
+{
+  "model": "rapidlayout-pp_layout_publaynet",
+  "meta": {
+    "model_type": "PP_LAYOUT_PUBLAYNET",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.122
+  },
+  "num_detections": 5,
+  "class_counts": {
+    "text": 3,
+    "title": 2
+  },
+  "detections": [
+    {
+      "label": "text",
+      "score": 0.6257714033126831,
+      "box": [
+        264.7,
+        1917.5,
+        1490.5,
+        1990.2
+      ]
+    },
+    {
+      "label": "title",
+      "score": 0.5605349540710449,
+      "box": [
+        301.7,
+        566.5,
+        944.6,
+        615.6
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.5592139959335327,
+      "box": [
+        263.9,
+        669.9,
+        480.0,
+        704.5
+      ]
+    },
+    {
+      "label": "title",
+      "score": 0.4488021433353424,
+      "box": [
+        266.2,
+        1813.8,
+        806.9,
+        1861.9
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.42090415954589844,
+      "box": [
+        266.0,
+        1814.5,
+        806.7,
+        1861.7
+      ]
+    }
+  ]
+}

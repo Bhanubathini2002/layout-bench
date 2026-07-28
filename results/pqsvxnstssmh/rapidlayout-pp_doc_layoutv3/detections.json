@@ -1,0 +1,45 @@
+{
+  "model": "rapidlayout-pp_doc_layoutv3",
+  "meta": {
+    "model_type": "PP_DOC_LAYOUTV3",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.658
+  },
+  "num_detections": 3,
+  "class_counts": {
+    "table": 2,
+    "number": 1
+  },
+  "detections": [
+    {
+      "label": "table",
+      "score": 0.8940246105194092,
+      "box": [
+        1005.0,
+        312.0,
+        1577.0,
+        2023.0
+      ]
+    },
+    {
+      "label": "table",
+      "score": 0.8825308084487915,
+      "box": [
+        171.0,
+        311.0,
+        740.0,
+        2020.0
+      ]
+    },
+    {
+      "label": "number",
+      "score": 0.6221379041671753,
+      "box": [
+        867.0,
+        2333.0,
+        887.0,
+        2366.0
+      ]
+    }
+  ]
+}

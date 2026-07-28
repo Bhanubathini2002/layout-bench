@@ -1,0 +1,24 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.375
+  },
+  "num_detections": 1,
+  "class_counts": {
+    "RegionList": 1
+  },
+  "detections": [
+    {
+      "label": "RegionList",
+      "score": 0.9592376947402954,
+      "box": [
+        181.6,
+        309.7,
+        1563.7,
+        2008.0
+      ]
+    }
+  ]
+}

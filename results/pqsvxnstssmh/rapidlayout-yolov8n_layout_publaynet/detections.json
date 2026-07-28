@@ -1,0 +1,11 @@
+{
+  "model": "rapidlayout-yolov8n_layout_publaynet",
+  "meta": {
+    "model_type": "YOLOV8N_LAYOUT_PUBLAYNET",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.086
+  },
+  "num_detections": 0,
+  "class_counts": {},
+  "detections": []
+}

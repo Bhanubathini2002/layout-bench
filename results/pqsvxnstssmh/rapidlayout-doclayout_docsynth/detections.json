@@ -1,0 +1,46 @@
+{
+  "model": "rapidlayout-doclayout_docsynth",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSYNTH",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.353
+  },
+  "num_detections": 3,
+  "class_counts": {
+    "Table": 1,
+    "Section-header": 1,
+    "Page-footer": 1
+  },
+  "detections": [
+    {
+      "label": "Table",
+      "score": 0.9501973390579224,
+      "box": [
+        183.7,
+        305.7,
+        1564.7,
+        2013.0
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.46998751163482666,
+      "box": [
+        843.7,
+        208.8,
+        960.3,
+        253.9
+      ]
+    },
+    {
+      "label": "Page-footer",
+      "score": 0.4178791642189026,
+      "box": [
+        867.3,
+        2335.8,
+        891.3,
+        2366.1
+      ]
+    }
+  ]
+}

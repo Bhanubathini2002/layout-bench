@@ -1,0 +1,46 @@
+{
+  "model": "rapidlayout-pp_layout_cdla",
+  "meta": {
+    "model_type": "PP_LAYOUT_CDLA",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.098
+  },
+  "num_detections": 3,
+  "class_counts": {
+    "header": 1,
+    "footer": 1,
+    "text": 1
+  },
+  "detections": [
+    {
+      "label": "header",
+      "score": 0.9549355506896973,
+      "box": [
+        843.3,
+        208.9,
+        952.0,
+        244.1
+      ]
+    },
+    {
+      "label": "footer",
+      "score": 0.5038663148880005,
+      "box": [
+        869.7,
+        2338.8,
+        888.6,
+        2368.4
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.41888684034347534,
+      "box": [
+        161.8,
+        246.6,
+        763.4,
+        2005.7
+      ]
+    }
+  ]
+}

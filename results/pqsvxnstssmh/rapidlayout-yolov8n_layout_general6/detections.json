@@ -1,0 +1,35 @@
+{
+  "model": "rapidlayout-yolov8n_layout_general6",
+  "meta": {
+    "model_type": "YOLOV8N_LAYOUT_GENERAL6",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.075
+  },
+  "num_detections": 2,
+  "class_counts": {
+    "Title": 1,
+    "Text": 1
+  },
+  "detections": [
+    {
+      "label": "Title",
+      "score": 0.5883027911186218,
+      "box": [
+        845.3,
+        205.9,
+        953.5,
+        247.4
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.5678860545158386,
+      "box": [
+        155.2,
+        276.3,
+        1575.5,
+        2037.8
+      ]
+    }
+  ]
+}

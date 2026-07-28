@@ -1,0 +1,25 @@
+{
+  "model": "table-transformer-detection",
+  "meta": {
+    "repo": "microsoft/table-transformer-detection",
+    "threshold": 0.6,
+    "device": "cuda",
+    "num_classes": 2
+  },
+  "num_detections": 1,
+  "class_counts": {
+    "table rotated": 1
+  },
+  "detections": [
+    {
+      "label": "table rotated",
+      "score": 0.7033033967018127,
+      "box": [
+        183.5,
+        288.9,
+        1556.8,
+        2005.3
+      ]
+    }
+  ]
+}
