@@ -1,0 +1,131 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.505
+  },
+  "num_detections": 11,
+  "class_counts": {
+    "ParaText": 4,
+    "LetterHead": 1,
+    "Figure": 1,
+    "DocTitle": 1,
+    "Date": 1,
+    "LetterDear": 1,
+    "RegionKV": 1,
+    "OtherText": 1
+  },
+  "detections": [
+    {
+      "label": "ParaText",
+      "score": 0.9860538244247437,
+      "box": [
+        165.6,
+        1705.8,
+        1722.3,
+        2062.7
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.9854864478111267,
+      "box": [
+        165.4,
+        931.3,
+        1721.9,
+        1370.3
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.9842793941497803,
+      "box": [
+        165.4,
+        1409.5,
+        1722.4,
+        1674.3
+      ]
+    },
+    {
+      "label": "LetterHead",
+      "score": 0.9588959813117981,
+      "box": [
+        168.1,
+        644.8,
+        709.4,
+        773.8
+      ]
+    },
+    {
+      "label": "Figure",
+      "score": 0.9285012483596802,
+      "box": [
+        180.7,
+        247.8,
+        339.8,
+        408.9
+      ]
+    },
+    {
+      "label": "DocTitle",
+      "score": 0.9220503568649292,
+      "box": [
+        373.8,
+        263.4,
+        880.3,
+        386.2
+      ]
+    },
+    {
+      "label": "Date",
+      "score": 0.9186910390853882,
+      "box": [
+        168.6,
+        547.5,
+        483.5,
+        585.6
+      ]
+    },
+    {
+      "label": "LetterDear",
+      "score": 0.8724997043609619,
+      "box": [
+        169.6,
+        859.4,
+        644.1,
+        898.4
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.8532623052597046,
+      "box": [
+        167.1,
+        2093.9,
+        1720.4,
+        2134.1
+      ]
+    },
+    {
+      "label": "RegionKV",
+      "score": 0.5705816149711609,
+      "box": [
+        1127.9,
+        379.3,
+        1582.6,
+        501.0
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.45562270283699036,
+      "box": [
+        1126.8,
+        167.0,
+        1675.9,
+        370.7
+      ]
+    }
+  ]
+}

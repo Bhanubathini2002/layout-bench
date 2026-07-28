@@ -1,0 +1,77 @@
+{
+  "model": "docling-egret-large",
+  "meta": {
+    "repo": "docling-project/docling-layout-egret-large",
+    "threshold": 0.5,
+    "device": "cuda",
+    "num_classes": 17
+  },
+  "num_detections": 6,
+  "class_counts": {
+    "Text": 4,
+    "Picture": 1,
+    "Section-header": 1
+  },
+  "detections": [
+    {
+      "label": "Text",
+      "score": 0.9751705527305603,
+      "box": [
+        167.8,
+        850.8,
+        1718.7,
+        2121.6
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.9478484988212585,
+      "box": [
+        166.9,
+        636.2,
+        706.7,
+        763.7
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.9138147234916687,
+      "box": [
+        166.8,
+        538.9,
+        481.2,
+        575.7
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.8842611312866211,
+      "box": [
+        1125.6,
+        239.9,
+        1673.2,
+        490.8
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.7981365323066711,
+      "box": [
+        169.0,
+        232.4,
+        890.8,
+        428.4
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.7757489681243896,
+      "box": [
+        1125.6,
+        156.7,
+        1654.4,
+        233.8
+      ]
+    }
+  ]
+}

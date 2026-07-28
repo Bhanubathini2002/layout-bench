@@ -1,0 +1,88 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.468
+  },
+  "num_detections": 7,
+  "class_counts": {
+    "Author": 1,
+    "OtherText": 3,
+    "DocTitle": 1,
+    "Figure": 1,
+    "PageHeader": 1
+  },
+  "detections": [
+    {
+      "label": "Author",
+      "score": 0.9009331464767456,
+      "box": [
+        388.0,
+        949.5,
+        1028.1,
+        1003.7
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.8755238056182861,
+      "box": [
+        384.6,
+        710.5,
+        1765.2,
+        772.7
+      ]
+    },
+    {
+      "label": "DocTitle",
+      "score": 0.8703351020812988,
+      "box": [
+        386.6,
+        579.9,
+        1418.7,
+        664.7
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.6820281744003296,
+      "box": [
+        386.7,
+        1040.8,
+        1602.1,
+        1184.5
+      ]
+    },
+    {
+      "label": "Figure",
+      "score": 0.5764625668525696,
+      "box": [
+        170.6,
+        165.8,
+        305.7,
+        301.0
+      ]
+    },
+    {
+      "label": "PageHeader",
+      "score": 0.5635266900062561,
+      "box": [
+        319.4,
+        192.3,
+        560.3,
+        283.5
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.48149800300598145,
+      "box": [
+        170.6,
+        165.8,
+        305.7,
+        301.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "model": "rapidlayout-doclayout_docstructbench",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSTRUCTBENCH",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.163
+  },
+  "num_detections": 10,
+  "class_counts": {
+    "table": 1,
+    "plain text": 6,
+    "title": 2,
+    "abandon": 1
+  },
+  "detections": [
+    {
+      "label": "table",
+      "score": 0.976833164691925,
+      "box": [
+        65.1,
+        104.9,
+        1684.0,
+        360.9
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.9482368230819702,
+      "box": [
+        59.8,
+        1216.2,
+        1650.2,
+        1320.8
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.9313796758651733,
+      "box": [
+        57.3,
+        773.0,
+        1650.2,
+        851.7
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.887972891330719,
+      "box": [
+        96.5,
+        864.8,
+        779.1,
+        954.8
+      ]
+    },
+    {
+      "label": "title",
+      "score": 0.8599552512168884,
+      "box": [
+        123.4,
+        489.8,
+        428.3,
+        524.9
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.8585517406463623,
+      "box": [
+        168.5,
+        547.8,
+        1271.9,
+        669.5
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.7344308495521545,
+      "box": [
+        845.2,
+        2439.1,
+        865.0,
+        2465.9
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.6896649599075317,
+      "box": [
+        60.3,
+        1415.3,
+        1407.1,
+        1506.7
+      ]
+    },
+    {
+      "label": "title",
+      "score": 0.6412956714630127,
+      "box": [
+        699.3,
+        416.8,
+        1011.1,
+        457.8
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.5021145343780518,
+      "box": [
+        470.7,
+        1050.1,
+        1631.9,
+        1121.5
+      ]
+    }
+  ]
+}
