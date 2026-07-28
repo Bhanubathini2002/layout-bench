@@ -1,0 +1,35 @@
+{
+  "model": "rapidlayout-doclayout_docstructbench",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSTRUCTBENCH",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.953
+  },
+  "num_detections": 2,
+  "class_counts": {
+    "plain text": 1,
+    "figure": 1
+  },
+  "detections": [
+    {
+      "label": "plain text",
+      "score": 0.569155216217041,
+      "box": [
+        1407.7,
+        621.2,
+        2250.5,
+        667.3
+      ]
+    },
+    {
+      "label": "figure",
+      "score": 0.5300243496894836,
+      "box": [
+        140.5,
+        299.4,
+        1107.8,
+        1438.2
+      ]
+    }
+  ]
+}

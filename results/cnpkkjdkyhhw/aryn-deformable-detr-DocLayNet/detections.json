@@ -1,0 +1,137 @@
+{
+  "model": "aryn-deformable-detr-DocLayNet",
+  "meta": {
+    "repo": "Aryn/deformable-detr-DocLayNet",
+    "threshold": 0.5,
+    "device": "cuda",
+    "num_classes": 12
+  },
+  "num_detections": 12,
+  "class_counts": {
+    "Picture": 5,
+    "Text": 2,
+    "Section-header": 5
+  },
+  "detections": [
+    {
+      "label": "Picture",
+      "score": 0.6519835591316223,
+      "box": [
+        77.0,
+        354.3,
+        368.7,
+        649.0
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.6140265464782715,
+      "box": [
+        113.1,
+        759.0,
+        419.2,
+        1007.6
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.5933260321617126,
+      "box": [
+        1558.3,
+        407.4,
+        1651.0,
+        473.2
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5616745948791504,
+      "box": [
+        632.1,
+        103.6,
+        1102.4,
+        186.4
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.5607338547706604,
+      "box": [
+        1558.8,
+        1591.2,
+        1648.5,
+        1680.8
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.5399583578109741,
+      "box": [
+        1558.9,
+        628.7,
+        1648.1,
+        717.6
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.5246348977088928,
+      "box": [
+        549.3,
+        916.1,
+        1668.9,
+        1273.2
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5150707364082336,
+      "box": [
+        545.3,
+        1362.4,
+        790.0,
+        1401.0
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.508689820766449,
+      "box": [
+        544.1,
+        330.8,
+        839.0,
+        375.2
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5045896768569946,
+      "box": [
+        298.8,
+        718.0,
+        414.4,
+        745.2
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.503591001033783,
+      "box": [
+        309.2,
+        1537.5,
+        415.1,
+        1566.0
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.5007162094116211,
+      "box": [
+        111.8,
+        1421.5,
+        418.6,
+        1502.8
+      ]
+    }
+  ]
+}

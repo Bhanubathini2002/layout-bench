@@ -1,0 +1,57 @@
+{
+  "model": "docling-egret-large",
+  "meta": {
+    "repo": "docling-project/docling-layout-egret-large",
+    "threshold": 0.5,
+    "device": "cuda",
+    "num_classes": 17
+  },
+  "num_detections": 4,
+  "class_counts": {
+    "Picture": 2,
+    "Text": 1,
+    "Section-header": 1
+  },
+  "detections": [
+    {
+      "label": "Picture",
+      "score": 0.8211103677749634,
+      "box": [
+        126.5,
+        303.7,
+        1103.3,
+        1445.2
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.761528491973877,
+      "box": [
+        1367.4,
+        305.7,
+        2340.8,
+        1447.8
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.6407549381256104,
+      "box": [
+        1409.7,
+        624.2,
+        2246.0,
+        663.8
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5018394589424133,
+      "box": [
+        1409.0,
+        393.7,
+        2223.6,
+        608.3
+      ]
+    }
+  ]
+}

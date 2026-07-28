@@ -1,0 +1,11 @@
+{
+  "model": "rapidlayout-pp_layout_publaynet",
+  "meta": {
+    "model_type": "PP_LAYOUT_PUBLAYNET",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.087
+  },
+  "num_detections": 0,
+  "class_counts": {},
+  "detections": []
+}
