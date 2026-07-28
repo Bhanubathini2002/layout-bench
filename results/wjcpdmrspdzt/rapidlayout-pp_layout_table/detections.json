@@ -1,0 +1,44 @@
+{
+  "model": "rapidlayout-pp_layout_table",
+  "meta": {
+    "model_type": "PP_LAYOUT_TABLE",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.081
+  },
+  "num_detections": 3,
+  "class_counts": {
+    "table": 3
+  },
+  "detections": [
+    {
+      "label": "table",
+      "score": 0.8623507022857666,
+      "box": [
+        54.9,
+        1108.9,
+        815.6,
+        1574.3
+      ]
+    },
+    {
+      "label": "table",
+      "score": 0.7835783958435059,
+      "box": [
+        1794.5,
+        1021.0,
+        2291.0,
+        1179.8
+      ]
+    },
+    {
+      "label": "table",
+      "score": 0.4982387125492096,
+      "box": [
+        1667.2,
+        298.3,
+        2426.8,
+        856.2
+      ]
+    }
+  ]
+}

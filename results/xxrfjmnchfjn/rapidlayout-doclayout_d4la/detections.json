@@ -1,0 +1,57 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.846
+  },
+  "num_detections": 4,
+  "class_counts": {
+    "RegionKV": 1,
+    "Figure": 1,
+    "OtherText": 1,
+    "DocTitle": 1
+  },
+  "detections": [
+    {
+      "label": "RegionKV",
+      "score": 0.9632484912872314,
+      "box": [
+        165.3,
+        1805.7,
+        762.4,
+        1969.2
+      ]
+    },
+    {
+      "label": "Figure",
+      "score": 0.8808379769325256,
+      "box": [
+        745.5,
+        204.7,
+        1008.3,
+        718.9
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.6660692691802979,
+      "box": [
+        724.6,
+        2198.3,
+        1028.7,
+        2233.7
+      ]
+    },
+    {
+      "label": "DocTitle",
+      "score": 0.6519588232040405,
+      "box": [
+        273.4,
+        763.7,
+        1477.3,
+        958.0
+      ]
+    }
+  ]
+}

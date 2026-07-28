@@ -1,0 +1,11 @@
+{
+  "model": "rapidlayout-pp_layout_table",
+  "meta": {
+    "model_type": "PP_LAYOUT_TABLE",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.078
+  },
+  "num_detections": 0,
+  "class_counts": {},
+  "detections": []
+}

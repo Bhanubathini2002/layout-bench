@@ -1,0 +1,56 @@
+{
+  "model": "rapidlayout-pp_doc_layoutv2",
+  "meta": {
+    "model_type": "PP_DOC_LAYOUTV2",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.469
+  },
+  "num_detections": 4,
+  "class_counts": {
+    "text": 2,
+    "doc_title": 1,
+    "footer": 1
+  },
+  "detections": [
+    {
+      "label": "text",
+      "score": 0.9267045259475708,
+      "box": [
+        216.0,
+        1058.0,
+        644.0,
+        1103.0
+      ]
+    },
+    {
+      "label": "doc_title",
+      "score": 0.8447152376174927,
+      "box": [
+        216.0,
+        828.0,
+        1178.0,
+        952.0
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.7711309194564819,
+      "box": [
+        215.0,
+        213.0,
+        1277.0,
+        381.0
+      ]
+    },
+    {
+      "label": "footer",
+      "score": 0.7577464580535889,
+      "box": [
+        218.0,
+        2095.0,
+        631.0,
+        2149.0
+      ]
+    }
+  ]
+}

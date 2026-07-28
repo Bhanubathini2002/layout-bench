@@ -1,0 +1,66 @@
+{
+  "model": "rapidlayout-pp_layout_cdla",
+  "meta": {
+    "model_type": "PP_LAYOUT_CDLA",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.088
+  },
+  "num_detections": 5,
+  "class_counts": {
+    "text": 3,
+    "title": 1,
+    "header": 1
+  },
+  "detections": [
+    {
+      "label": "text",
+      "score": 0.8289755582809448,
+      "box": [
+        230.3,
+        1067.4,
+        639.5,
+        1094.2
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.8104321956634521,
+      "box": [
+        226.9,
+        2102.5,
+        624.0,
+        2147.1
+      ]
+    },
+    {
+      "label": "title",
+      "score": 0.7315361499786377,
+      "box": [
+        228.8,
+        840.2,
+        1168.3,
+        950.4
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.7292896509170532,
+      "box": [
+        226.1,
+        225.7,
+        1268.5,
+        371.8
+      ]
+    },
+    {
+      "label": "header",
+      "score": 0.5220377445220947,
+      "box": [
+        228.4,
+        225.4,
+        1265.8,
+        370.8
+      ]
+    }
+  ]
+}

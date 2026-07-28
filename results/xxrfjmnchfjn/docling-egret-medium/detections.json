@@ -1,0 +1,127 @@
+{
+  "model": "docling-egret-medium",
+  "meta": {
+    "repo": "docling-project/docling-layout-egret-medium",
+    "threshold": 0.5,
+    "device": "cuda",
+    "num_classes": 17
+  },
+  "num_detections": 11,
+  "class_counts": {
+    "Section-header": 8,
+    "Picture": 1,
+    "Text": 2
+  },
+  "detections": [
+    {
+      "label": "Section-header",
+      "score": 0.7777808308601379,
+      "box": [
+        455.9,
+        1190.8,
+        1293.9,
+        1245.6
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.7769110202789307,
+      "box": [
+        742.2,
+        205.5,
+        1008.3,
+        717.7
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.7147012948989868,
+      "box": [
+        165.6,
+        1797.0,
+        762.0,
+        1960.4
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.7116442918777466,
+      "box": [
+        724.3,
+        2189.8,
+        1027.4,
+        2225.0
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.6598392128944397,
+      "box": [
+        592.3,
+        1424.5,
+        1158.0,
+        1465.7
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.6526676416397095,
+      "box": [
+        274.1,
+        753.0,
+        1476.2,
+        791.9
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.6394026875495911,
+      "box": [
+        558.1,
+        1325.5,
+        1193.9,
+        1376.5
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.615710437297821,
+      "box": [
+        274.0,
+        752.8,
+        1476.1,
+        953.4
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5991107821464539,
+      "box": [
+        359.8,
+        846.2,
+        1391.0,
+        953.7
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5657495260238647,
+      "box": [
+        724.3,
+        2189.8,
+        1027.4,
+        2225.0
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.524853527545929,
+      "box": [
+        165.6,
+        1797.0,
+        762.0,
+        1960.4
+      ]
+    }
+  ]
+}

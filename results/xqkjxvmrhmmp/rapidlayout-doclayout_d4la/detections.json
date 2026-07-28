@@ -1,0 +1,56 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.874
+  },
+  "num_detections": 4,
+  "class_counts": {
+    "OtherText": 2,
+    "DocTitle": 1,
+    "ParaText": 1
+  },
+  "detections": [
+    {
+      "label": "OtherText",
+      "score": 0.8645141124725342,
+      "box": [
+        224.0,
+        1064.7,
+        637.3,
+        1095.7
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.7431490421295166,
+      "box": [
+        224.6,
+        2099.8,
+        627.9,
+        2147.4
+      ]
+    },
+    {
+      "label": "DocTitle",
+      "score": 0.5456169843673706,
+      "box": [
+        225.3,
+        836.8,
+        1171.3,
+        953.2
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.40656259655952454,
+      "box": [
+        224.0,
+        221.6,
+        1271.4,
+        380.1
+      ]
+    }
+  ]
+}
