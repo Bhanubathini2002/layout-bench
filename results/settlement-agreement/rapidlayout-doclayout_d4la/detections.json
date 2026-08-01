@@ -1,0 +1,77 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.678
+  },
+  "num_detections": 6,
+  "class_counts": {
+    "ParaText": 1,
+    "ListText": 3,
+    "PageNumber": 1,
+    "Table": 1
+  },
+  "detections": [
+    {
+      "label": "ParaText",
+      "score": 0.9752238392829895,
+      "box": [
+        336.3,
+        230.2,
+        1695.1,
+        481.5
+      ]
+    },
+    {
+      "label": "ListText",
+      "score": 0.9721939563751221,
+      "box": [
+        448.0,
+        528.0,
+        1694.8,
+        955.0
+      ]
+    },
+    {
+      "label": "ListText",
+      "score": 0.9603816270828247,
+      "box": [
+        449.6,
+        998.3,
+        1695.3,
+        1209.9
+      ]
+    },
+    {
+      "label": "ListText",
+      "score": 0.9560316801071167,
+      "box": [
+        449.2,
+        1871.8,
+        1695.8,
+        2212.4
+      ]
+    },
+    {
+      "label": "PageNumber",
+      "score": 0.8343417644500732,
+      "box": [
+        940.2,
+        2294.3,
+        976.8,
+        2322.6
+      ]
+    },
+    {
+      "label": "Table",
+      "score": 0.7946339249610901,
+      "box": [
+        457.9,
+        1252.2,
+        1713.4,
+        1785.7
+      ]
+    }
+  ]
+}

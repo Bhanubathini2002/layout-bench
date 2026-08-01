@@ -1,0 +1,76 @@
+{
+  "model": "rapidlayout-yolov8n_layout_report",
+  "meta": {
+    "model_type": "YOLOV8N_LAYOUT_REPORT",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.103
+  },
+  "num_detections": 6,
+  "class_counts": {
+    "Text": 4,
+    "Table": 1,
+    "Footer": 1
+  },
+  "detections": [
+    {
+      "label": "Text",
+      "score": 0.9528298377990723,
+      "box": [
+        332.6,
+        228.5,
+        1698.7,
+        487.6
+      ]
+    },
+    {
+      "label": "Table",
+      "score": 0.9518572092056274,
+      "box": [
+        458.6,
+        1250.7,
+        1711.5,
+        1787.3
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.949474573135376,
+      "box": [
+        439.3,
+        530.6,
+        1699.3,
+        953.0
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.9067003726959229,
+      "box": [
+        439.9,
+        1876.4,
+        1696.7,
+        2213.1
+      ]
+    },
+    {
+      "label": "Footer",
+      "score": 0.7419635057449341,
+      "box": [
+        936.7,
+        2290.6,
+        978.6,
+        2325.2
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.7256118655204773,
+      "box": [
+        452.9,
+        999.2,
+        1700.5,
+        1212.4
+      ]
+    }
+  ]
+}
