@@ -1,0 +1,58 @@
+{
+  "model": "aryn-deformable-detr-DocLayNet",
+  "meta": {
+    "repo": "Aryn/deformable-detr-DocLayNet",
+    "threshold": 0.5,
+    "device": "cpu",
+    "num_classes": 12
+  },
+  "num_detections": 4,
+  "class_counts": {
+    "Text": 1,
+    "Page-footer": 1,
+    "Section-header": 1,
+    "Picture": 1
+  },
+  "detections": [
+    {
+      "label": "Text",
+      "score": 0.7907059192657471,
+      "box": [
+        166.5,
+        1503.1,
+        1611.5,
+        1534.6
+      ]
+    },
+    {
+      "label": "Page-footer",
+      "score": 0.7494596838951111,
+      "box": [
+        1188.6,
+        1640.5,
+        1289.4,
+        1670.6
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.6861582398414612,
+      "box": [
+        162.4,
+        255.4,
+        1891.7,
+        308.4
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.6384552121162415,
+      "box": [
+        252.1,
+        442.8,
+        2247.4,
+        1434.4
+      ]
+    }
+  ]
+}

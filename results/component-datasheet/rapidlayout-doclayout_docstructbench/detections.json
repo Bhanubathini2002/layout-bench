@@ -1,0 +1,138 @@
+{
+  "model": "rapidlayout-doclayout_docstructbench",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSTRUCTBENCH",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.147
+  },
+  "num_detections": 12,
+  "class_counts": {
+    "figure": 1,
+    "title": 1,
+    "abandon": 3,
+    "plain text": 6,
+    "figure_caption": 1
+  },
+  "detections": [
+    {
+      "label": "figure",
+      "score": 0.9600949287414551,
+      "box": [
+        354.8,
+        446.5,
+        1212.9,
+        1217.2
+      ]
+    },
+    {
+      "label": "title",
+      "score": 0.9401946067810059,
+      "box": [
+        335.0,
+        249.6,
+        1511.0,
+        331.9
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.9083703756332397,
+      "box": [
+        162.1,
+        2351.0,
+        547.4,
+        2379.6
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.9000253677368164,
+      "box": [
+        336.6,
+        1263.7,
+        1590.8,
+        1331.2
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.8817006349563599,
+      "box": [
+        162.6,
+        85.0,
+        478.1,
+        113.1
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.8652176856994629,
+      "box": [
+        336.0,
+        390.3,
+        1386.7,
+        423.3
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.8196330070495605,
+      "box": [
+        357.7,
+        1351.2,
+        1395.6,
+        1931.7
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.793018102645874,
+      "box": [
+        1573.0,
+        2351.7,
+        1591.1,
+        2374.7
+      ]
+    },
+    {
+      "label": "figure_caption",
+      "score": 0.6843464374542236,
+      "box": [
+        161.0,
+        443.8,
+        287.9,
+        524.1
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.6793991327285767,
+      "box": [
+        335.1,
+        1949.7,
+        1542.0,
+        1983.0
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.4327756464481354,
+      "box": [
+        361.1,
+        2001.7,
+        1193.0,
+        2255.2
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.4011724591255188,
+      "box": [
+        366.5,
+        2004.2,
+        799.4,
+        2036.1
+      ]
+    }
+  ]
+}

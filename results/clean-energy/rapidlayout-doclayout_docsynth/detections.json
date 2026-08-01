@@ -1,0 +1,88 @@
+{
+  "model": "rapidlayout-doclayout_docsynth",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSYNTH",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.088
+  },
+  "num_detections": 7,
+  "class_counts": {
+    "Page-footer": 1,
+    "Page-header": 2,
+    "Section-header": 2,
+    "Text": 1,
+    "Picture": 1
+  },
+  "detections": [
+    {
+      "label": "Page-footer",
+      "score": 0.8607187271118164,
+      "box": [
+        1191.6,
+        1642.9,
+        1295.1,
+        1668.0
+      ]
+    },
+    {
+      "label": "Page-header",
+      "score": 0.8178784847259521,
+      "box": [
+        172.5,
+        150.8,
+        631.1,
+        177.8
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.7877890467643738,
+      "box": [
+        168.1,
+        253.1,
+        1892.1,
+        306.6
+      ]
+    },
+    {
+      "label": "Page-header",
+      "score": 0.7441409826278687,
+      "box": [
+        2166.0,
+        144.5,
+        2288.7,
+        171.6
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.6042657494544983,
+      "box": [
+        368.6,
+        1500.9,
+        1530.1,
+        1533.8
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5489166975021362,
+      "box": [
+        657.5,
+        364.2,
+        1823.2,
+        400.6
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.42063120007514954,
+      "box": [
+        2174.2,
+        1608.3,
+        2319.6,
+        1694.7
+      ]
+    }
+  ]
+}

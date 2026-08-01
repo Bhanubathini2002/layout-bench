@@ -1,0 +1,120 @@
+{
+  "model": "rapidlayout-doclayout_docstructbench",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSTRUCTBENCH",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.891
+  },
+  "num_detections": 10,
+  "class_counts": {
+    "plain text": 2,
+    "table": 1,
+    "figure": 1,
+    "abandon": 2,
+    "table_caption": 2,
+    "table_footnote": 1,
+    "title": 1
+  },
+  "detections": [
+    {
+      "label": "plain text",
+      "score": 0.9821313619613647,
+      "box": [
+        312.5,
+        365.4,
+        1699.7,
+        612.4
+      ]
+    },
+    {
+      "label": "table",
+      "score": 0.9812381267547607,
+      "box": [
+        315.2,
+        720.2,
+        1704.3,
+        1036.0
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.9645654559135437,
+      "box": [
+        313.5,
+        1090.9,
+        1681.3,
+        1211.0
+      ]
+    },
+    {
+      "label": "figure",
+      "score": 0.9609907865524292,
+      "box": [
+        310.0,
+        1350.3,
+        1709.2,
+        1831.5
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.9292362332344055,
+      "box": [
+        313.7,
+        2320.1,
+        632.5,
+        2345.3
+      ]
+    },
+    {
+      "label": "table_caption",
+      "score": 0.9188404083251953,
+      "box": [
+        311.8,
+        655.4,
+        1096.0,
+        692.6
+      ]
+    },
+    {
+      "label": "table_footnote",
+      "score": 0.8942123651504517,
+      "box": [
+        313.0,
+        1849.1,
+        554.4,
+        1873.9
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.8084584474563599,
+      "box": [
+        1682.8,
+        2320.8,
+        1700.8,
+        2342.7
+      ]
+    },
+    {
+      "label": "title",
+      "score": 0.7255058288574219,
+      "box": [
+        101.9,
+        88.5,
+        322.9,
+        178.9
+      ]
+    },
+    {
+      "label": "table_caption",
+      "score": 0.6682283282279968,
+      "box": [
+        312.7,
+        1252.7,
+        997.2,
+        1291.7
+      ]
+    }
+  ]
+}

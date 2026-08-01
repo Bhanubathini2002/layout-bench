@@ -1,0 +1,78 @@
+{
+  "model": "rapidlayout-pp_layout_cdla",
+  "meta": {
+    "model_type": "PP_LAYOUT_CDLA",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.115
+  },
+  "num_detections": 6,
+  "class_counts": {
+    "figure": 1,
+    "footer": 2,
+    "figure_caption": 1,
+    "header": 1,
+    "text": 1
+  },
+  "detections": [
+    {
+      "label": "figure",
+      "score": 0.9433565139770508,
+      "box": [
+        179.1,
+        407.4,
+        2338.9,
+        1461.1
+      ]
+    },
+    {
+      "label": "footer",
+      "score": 0.9207378625869751,
+      "box": [
+        1192.6,
+        1644.7,
+        1291.0,
+        1661.9
+      ]
+    },
+    {
+      "label": "figure_caption",
+      "score": 0.9097093939781189,
+      "box": [
+        168.9,
+        1505.0,
+        1602.0,
+        1532.8
+      ]
+    },
+    {
+      "label": "footer",
+      "score": 0.8238975405693054,
+      "box": [
+        2179.9,
+        1622.1,
+        2314.7,
+        1678.6
+      ]
+    },
+    {
+      "label": "header",
+      "score": 0.81144118309021,
+      "box": [
+        172.0,
+        153.6,
+        631.8,
+        177.8
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.4174548387527466,
+      "box": [
+        658.8,
+        361.8,
+        1848.6,
+        398.8
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.753
+  },
+  "num_detections": 11,
+  "class_counts": {
+    "Table": 1,
+    "ParaText": 2,
+    "Figure": 1,
+    "RegionKV": 2,
+    "DocTitle": 1,
+    "OtherText": 2,
+    "FigureName": 1,
+    "PageFooter": 1
+  },
+  "detections": [
+    {
+      "label": "Table",
+      "score": 0.9758492708206177,
+      "box": [
+        315.3,
+        727.5,
+        1693.9,
+        1030.3
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.9703987836837769,
+      "box": [
+        313.9,
+        372.2,
+        1693.9,
+        610.8
+      ]
+    },
+    {
+      "label": "Figure",
+      "score": 0.961058497428894,
+      "box": [
+        320.9,
+        1371.1,
+        1692.8,
+        1778.6
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.9542133808135986,
+      "box": [
+        313.4,
+        1095.9,
+        1675.8,
+        1209.6
+      ]
+    },
+    {
+      "label": "RegionKV",
+      "score": 0.8392051458358765,
+      "box": [
+        314.1,
+        1256.8,
+        993.8,
+        1288.3
+      ]
+    },
+    {
+      "label": "RegionKV",
+      "score": 0.8367288112640381,
+      "box": [
+        313.9,
+        660.0,
+        1092.1,
+        688.6
+      ]
+    },
+    {
+      "label": "DocTitle",
+      "score": 0.7817734479904175,
+      "box": [
+        103.9,
+        90.3,
+        317.9,
+        172.3
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.5698856115341187,
+      "box": [
+        314.9,
+        2322.9,
+        630.6,
+        2342.6
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.4834631085395813,
+      "box": [
+        314.8,
+        1852.6,
+        551.3,
+        1871.5
+      ]
+    },
+    {
+      "label": "FigureName",
+      "score": 0.44147688150405884,
+      "box": [
+        314.4,
+        1801.7,
+        545.8,
+        1824.1
+      ]
+    },
+    {
+      "label": "PageFooter",
+      "score": 0.4318513870239258,
+      "box": [
+        314.9,
+        2322.9,
+        630.6,
+        2342.6
+      ]
+    }
+  ]
+}
