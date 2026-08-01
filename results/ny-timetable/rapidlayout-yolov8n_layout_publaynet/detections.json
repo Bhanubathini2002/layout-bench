@@ -1,0 +1,35 @@
+{
+  "model": "rapidlayout-yolov8n_layout_publaynet",
+  "meta": {
+    "model_type": "YOLOV8N_LAYOUT_PUBLAYNET",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.112
+  },
+  "num_detections": 2,
+  "class_counts": {
+    "Figure": 1,
+    "Title": 1
+  },
+  "detections": [
+    {
+      "label": "Figure",
+      "score": 0.6871805787086487,
+      "box": [
+        71.8,
+        81.6,
+        1173.9,
+        2396.5
+      ]
+    },
+    {
+      "label": "Title",
+      "score": 0.6449947953224182,
+      "box": [
+        1662.6,
+        2420.1,
+        1841.2,
+        2463.7
+      ]
+    }
+  ]
+}

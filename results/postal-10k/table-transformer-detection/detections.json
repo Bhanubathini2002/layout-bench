@@ -1,0 +1,25 @@
+{
+  "model": "table-transformer-detection",
+  "meta": {
+    "repo": "microsoft/table-transformer-detection",
+    "threshold": 0.6,
+    "device": "cpu",
+    "num_classes": 2
+  },
+  "num_detections": 1,
+  "class_counts": {
+    "table": 1
+  },
+  "detections": [
+    {
+      "label": "table",
+      "score": 0.9998501539230347,
+      "box": [
+        192.3,
+        316.1,
+        1659.3,
+        2262.6
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "model": "docling-heron-101",
+  "meta": {
+    "repo": "ds4sd/docling-layout-heron-101",
+    "threshold": 0.5,
+    "device": "cpu",
+    "num_classes": 17
+  },
+  "num_detections": 4,
+  "class_counts": {
+    "table": 1,
+    "text": 1,
+    "page_footer": 1,
+    "section_header": 1
+  },
+  "detections": [
+    {
+      "label": "table",
+      "score": 0.9839604496955872,
+      "box": [
+        180.3,
+        301.1,
+        1734.9,
+        2269.4
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.944355309009552,
+      "box": [
+        181.3,
+        255.6,
+        1608.0,
+        288.1
+      ]
+    },
+    {
+      "label": "page_footer",
+      "score": 0.9402051568031311,
+      "box": [
+        1075.9,
+        2411.1,
+        1733.1,
+        2437.6
+      ]
+    },
+    {
+      "label": "section_header",
+      "score": 0.9281011819839478,
+      "box": [
+        181.7,
+        179.8,
+        942.1,
+        207.1
+      ]
+    }
+  ]
+}

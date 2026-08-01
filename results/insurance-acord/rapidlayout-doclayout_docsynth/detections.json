@@ -1,0 +1,97 @@
+{
+  "model": "rapidlayout-doclayout_docsynth",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSYNTH",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.729
+  },
+  "num_detections": 8,
+  "class_counts": {
+    "Page-footer": 1,
+    "Section-header": 5,
+    "Picture": 1,
+    "Title": 1
+  },
+  "detections": [
+    {
+      "label": "Page-footer",
+      "score": 0.7319163084030151,
+      "box": [
+        67.8,
+        2376.4,
+        320.9,
+        2402.4
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.6894646883010864,
+      "box": [
+        1331.0,
+        761.9,
+        1589.6,
+        789.2
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.6764040589332581,
+      "box": [
+        495.9,
+        761.7,
+        801.5,
+        789.7
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.6453918814659119,
+      "box": [
+        969.7,
+        2039.3,
+        1178.8,
+        2066.5
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.564736008644104,
+      "box": [
+        69.0,
+        2041.3,
+        360.5,
+        2066.9
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5503975749015808,
+      "box": [
+        69.7,
+        763.6,
+        236.6,
+        789.5
+      ]
+    },
+    {
+      "label": "Picture",
+      "score": 0.5380962491035461,
+      "box": [
+        67.0,
+        55.1,
+        284.1,
+        150.5
+      ]
+    },
+    {
+      "label": "Title",
+      "score": 0.42450401186943054,
+      "box": [
+        421.6,
+        91.1,
+        1454.0,
+        142.1
+      ]
+    }
+  ]
+}

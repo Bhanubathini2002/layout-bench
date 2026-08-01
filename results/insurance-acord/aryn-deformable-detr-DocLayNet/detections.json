@@ -1,0 +1,12 @@
+{
+  "model": "aryn-deformable-detr-DocLayNet",
+  "meta": {
+    "repo": "Aryn/deformable-detr-DocLayNet",
+    "threshold": 0.5,
+    "device": "cpu",
+    "num_classes": 12
+  },
+  "num_detections": 0,
+  "class_counts": {},
+  "detections": []
+}

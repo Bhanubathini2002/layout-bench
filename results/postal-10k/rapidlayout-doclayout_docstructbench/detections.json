@@ -1,0 +1,57 @@
+{
+  "model": "rapidlayout-doclayout_docstructbench",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSTRUCTBENCH",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.699
+  },
+  "num_detections": 4,
+  "class_counts": {
+    "table": 1,
+    "abandon": 1,
+    "title": 1,
+    "table_caption": 1
+  },
+  "detections": [
+    {
+      "label": "table",
+      "score": 0.9721330404281616,
+      "box": [
+        182.6,
+        282.9,
+        1738.0,
+        2270.8
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.9146480560302734,
+      "box": [
+        1074.6,
+        2407.5,
+        1740.4,
+        2439.8
+      ]
+    },
+    {
+      "label": "title",
+      "score": 0.6823550462722778,
+      "box": [
+        181.3,
+        174.3,
+        947.8,
+        215.1
+      ]
+    },
+    {
+      "label": "table_caption",
+      "score": 0.5446128845214844,
+      "box": [
+        183.3,
+        251.0,
+        1615.3,
+        291.2
+      ]
+    }
+  ]
+}

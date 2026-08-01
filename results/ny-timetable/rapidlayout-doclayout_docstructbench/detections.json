@@ -1,0 +1,35 @@
+{
+  "model": "rapidlayout-doclayout_docstructbench",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSTRUCTBENCH",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.698
+  },
+  "num_detections": 2,
+  "class_counts": {
+    "table": 1,
+    "abandon": 1
+  },
+  "detections": [
+    {
+      "label": "table",
+      "score": 0.908809244632721,
+      "box": [
+        74.0,
+        194.9,
+        1176.1,
+        2403.7
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.8516044616699219,
+      "box": [
+        1661.8,
+        2425.2,
+        1845.6,
+        2458.7
+      ]
+    }
+  ]
+}

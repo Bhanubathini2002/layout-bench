@@ -1,0 +1,96 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.688
+  },
+  "num_detections": 8,
+  "class_counts": {
+    "Figure": 2,
+    "ParaText": 4,
+    "PageNumber": 2
+  },
+  "detections": [
+    {
+      "label": "Figure",
+      "score": 0.980642557144165,
+      "box": [
+        295.8,
+        292.1,
+        1606.4,
+        944.7
+      ]
+    },
+    {
+      "label": "Figure",
+      "score": 0.9793569445610046,
+      "box": [
+        292.5,
+        1266.2,
+        1591.1,
+        2023.6
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.8892753720283508,
+      "box": [
+        309.7,
+        991.6,
+        1606.2,
+        1055.0
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.8332768678665161,
+      "box": [
+        318.4,
+        2073.5,
+        1598.1,
+        2137.1
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.8140981197357178,
+      "box": [
+        281.3,
+        1092.4,
+        1344.6,
+        1146.7
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.76869136095047,
+      "box": [
+        281.2,
+        2173.6,
+        1345.0,
+        2228.3
+      ]
+    },
+    {
+      "label": "PageNumber",
+      "score": 0.7145883440971375,
+      "box": [
+        945.7,
+        2338.1,
+        971.2,
+        2362.4
+      ]
+    },
+    {
+      "label": "PageNumber",
+      "score": 0.5813536643981934,
+      "box": [
+        945.8,
+        2338.2,
+        972.1,
+        2362.5
+      ]
+    }
+  ]
+}

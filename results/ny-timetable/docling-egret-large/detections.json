@@ -1,0 +1,36 @@
+{
+  "model": "docling-egret-large",
+  "meta": {
+    "repo": "docling-project/docling-layout-egret-large",
+    "threshold": 0.5,
+    "device": "cpu",
+    "num_classes": 17
+  },
+  "num_detections": 2,
+  "class_counts": {
+    "table": 1,
+    "page_footer": 1
+  },
+  "detections": [
+    {
+      "label": "table",
+      "score": 0.9821935892105103,
+      "box": [
+        72.9,
+        71.1,
+        1177.4,
+        2402.8
+      ]
+    },
+    {
+      "label": "page_footer",
+      "score": 0.9216841459274292,
+      "box": [
+        1662.9,
+        2425.7,
+        1839.7,
+        2458.1
+      ]
+    }
+  ]
+}

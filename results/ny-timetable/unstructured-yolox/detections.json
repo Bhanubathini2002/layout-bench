@@ -1,0 +1,53 @@
+{
+  "model": "unstructured-yolox",
+  "meta": {
+    "model": "yolox (yolox_l)"
+  },
+  "num_detections": 4,
+  "class_counts": {
+    "Table": 1,
+    "Section-header": 3
+  },
+  "detections": [
+    {
+      "label": "Table",
+      "score": 0.8640801906585693,
+      "box": [
+        78.6,
+        114.9,
+        1190.3,
+        1844.0
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5886445045471191,
+      "box": [
+        1660.1,
+        2429.7,
+        1843.2,
+        2457.5
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.3605593144893646,
+      "box": [
+        102.4,
+        88.2,
+        313.4,
+        141.3
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.2999686598777771,
+      "box": [
+        872.6,
+        95.3,
+        1147.3,
+        139.7
+      ]
+    }
+  ]
+}

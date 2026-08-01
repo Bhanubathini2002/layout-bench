@@ -1,0 +1,108 @@
+{
+  "model": "rapidlayout-pp_layout_cdla",
+  "meta": {
+    "model_type": "PP_LAYOUT_CDLA",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.167
+  },
+  "num_detections": 9,
+  "class_counts": {
+    "figure": 2,
+    "figure_caption": 3,
+    "header": 1,
+    "footer": 1,
+    "reference": 2
+  },
+  "detections": [
+    {
+      "label": "figure",
+      "score": 0.9711090326309204,
+      "box": [
+        261.5,
+        1249.5,
+        1624.1,
+        2041.1
+      ]
+    },
+    {
+      "label": "figure",
+      "score": 0.9652642011642456,
+      "box": [
+        256.8,
+        281.4,
+        1628.9,
+        958.4
+      ]
+    },
+    {
+      "label": "figure_caption",
+      "score": 0.9630191922187805,
+      "box": [
+        312.0,
+        2074.8,
+        1600.4,
+        2139.3
+      ]
+    },
+    {
+      "label": "header",
+      "score": 0.8764013051986694,
+      "box": [
+        280.4,
+        123.4,
+        501.6,
+        183.6
+      ]
+    },
+    {
+      "label": "figure_caption",
+      "score": 0.8684509992599487,
+      "box": [
+        299.2,
+        992.9,
+        1604.2,
+        1054.6
+      ]
+    },
+    {
+      "label": "footer",
+      "score": 0.8474189043045044,
+      "box": [
+        944.8,
+        2340.0,
+        971.5,
+        2361.8
+      ]
+    },
+    {
+      "label": "figure_caption",
+      "score": 0.5300611257553101,
+      "box": [
+        284.4,
+        1055.4,
+        1605.5,
+        1152.3
+      ]
+    },
+    {
+      "label": "reference",
+      "score": 0.46581530570983887,
+      "box": [
+        280.9,
+        1088.7,
+        1379.4,
+        1150.6
+      ]
+    },
+    {
+      "label": "reference",
+      "score": 0.43332305550575256,
+      "box": [
+        531.8,
+        2174.7,
+        1234.0,
+        2229.7
+      ]
+    }
+  ]
+}
