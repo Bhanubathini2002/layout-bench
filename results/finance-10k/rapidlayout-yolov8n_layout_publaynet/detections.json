@@ -1,0 +1,24 @@
+{
+  "model": "rapidlayout-yolov8n_layout_publaynet",
+  "meta": {
+    "model_type": "YOLOV8N_LAYOUT_PUBLAYNET",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.097
+  },
+  "num_detections": 1,
+  "class_counts": {
+    "Table": 1
+  },
+  "detections": [
+    {
+      "label": "Table",
+      "score": 0.7015812993049622,
+      "box": [
+        141.7,
+        310.4,
+        1766.7,
+        1728.9
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "model": "rapidlayout-yolov8n_layout_paper",
+  "meta": {
+    "model_type": "YOLOV8N_LAYOUT_PAPER",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.125
+  },
+  "num_detections": 8,
+  "class_counts": {
+    "Figure": 2,
+    "Figure caption": 2,
+    "Footer": 1,
+    "Header": 2,
+    "Text": 1
+  },
+  "detections": [
+    {
+      "label": "Figure",
+      "score": 0.9066081047058105,
+      "box": [
+        121.4,
+        228.3,
+        1720.3,
+        894.8
+      ]
+    },
+    {
+      "label": "Figure",
+      "score": 0.8214584589004517,
+      "box": [
+        128.5,
+        1093.7,
+        1720.6,
+        1766.3
+      ]
+    },
+    {
+      "label": "Figure caption",
+      "score": 0.7353735566139221,
+      "box": [
+        1272.8,
+        970.8,
+        1723.9,
+        994.8
+      ]
+    },
+    {
+      "label": "Footer",
+      "score": 0.735345184803009,
+      "box": [
+        1660.5,
+        97.2,
+        1726.6,
+        127.2
+      ]
+    },
+    {
+      "label": "Header",
+      "score": 0.6996304988861084,
+      "box": [
+        137.4,
+        2310.3,
+        987.7,
+        2335.4
+      ]
+    },
+    {
+      "label": "Figure caption",
+      "score": 0.5639495849609375,
+      "box": [
+        134.0,
+        1754.7,
+        1728.6,
+        1870.1
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.5064395666122437,
+      "box": [
+        1295.0,
+        1891.4,
+        1727.2,
+        1916.6
+      ]
+    },
+    {
+      "label": "Header",
+      "score": 0.49702051281929016,
+      "box": [
+        141.3,
+        182.0,
+        1164.5,
+        214.7
+      ]
+    }
+  ]
+}

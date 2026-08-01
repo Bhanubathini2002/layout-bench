@@ -1,0 +1,77 @@
+{
+  "model": "rapidlayout-doclayout_docsynth",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSYNTH",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.687
+  },
+  "num_detections": 6,
+  "class_counts": {
+    "Table": 1,
+    "Page-footer": 1,
+    "Section-header": 2,
+    "Text": 2
+  },
+  "detections": [
+    {
+      "label": "Table",
+      "score": 0.9759045839309692,
+      "box": [
+        151.6,
+        314.9,
+        1767.6,
+        1708.1
+      ]
+    },
+    {
+      "label": "Page-footer",
+      "score": 0.8896901607513428,
+      "box": [
+        785.6,
+        2396.2,
+        1147.7,
+        2422.7
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.8300905823707581,
+      "box": [
+        624.8,
+        190.5,
+        1293.5,
+        222.0
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.8187049627304077,
+      "box": [
+        556.7,
+        1757.5,
+        1361.6,
+        1790.7
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.736359715461731,
+      "box": [
+        891.5,
+        127.0,
+        1028.2,
+        160.6
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.7237158417701721,
+      "box": [
+        397.8,
+        223.9,
+        1556.4,
+        256.1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "model": "docling-heron",
+  "meta": {
+    "repo": "ds4sd/docling-layout-heron",
+    "threshold": 0.5,
+    "device": "cpu",
+    "num_classes": 17
+  },
+  "num_detections": 7,
+  "class_counts": {
+    "table": 1,
+    "page_footer": 1,
+    "text": 2,
+    "section_header": 2,
+    "page_header": 1
+  },
+  "detections": [
+    {
+      "label": "table",
+      "score": 0.9884952306747437,
+      "box": [
+        150.7,
+        313.1,
+        1765.5,
+        1711.0
+      ]
+    },
+    {
+      "label": "page_footer",
+      "score": 0.9138766527175903,
+      "box": [
+        785.1,
+        2394.4,
+        1147.5,
+        2423.7
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.9100626707077026,
+      "box": [
+        556.2,
+        1758.8,
+        1361.5,
+        1790.8
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.9027820229530334,
+      "box": [
+        360.3,
+        225.5,
+        1558.3,
+        257.2
+      ]
+    },
+    {
+      "label": "section_header",
+      "score": 0.8746176362037659,
+      "box": [
+        625.6,
+        190.2,
+        1292.8,
+        223.2
+      ]
+    },
+    {
+      "label": "page_header",
+      "score": 0.6704813241958618,
+      "box": [
+        891.1,
+        128.1,
+        1026.2,
+        161.6
+      ]
+    },
+    {
+      "label": "section_header",
+      "score": 0.648242712020874,
+      "box": [
+        891.1,
+        128.1,
+        1026.2,
+        161.6
+      ]
+    }
+  ]
+}

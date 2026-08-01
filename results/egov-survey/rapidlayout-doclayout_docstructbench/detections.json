@@ -1,0 +1,118 @@
+{
+  "model": "rapidlayout-doclayout_docstructbench",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSTRUCTBENCH",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.131
+  },
+  "num_detections": 10,
+  "class_counts": {
+    "plain text": 3,
+    "figure": 1,
+    "abandon": 4,
+    "table_footnote": 1,
+    "figure_caption": 1
+  },
+  "detections": [
+    {
+      "label": "plain text",
+      "score": 0.9875106811523438,
+      "box": [
+        211.1,
+        195.0,
+        1478.9,
+        561.6
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.9850847125053406,
+      "box": [
+        211.1,
+        1467.2,
+        1478.7,
+        1874.0
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.9834749698638916,
+      "box": [
+        209.5,
+        1901.6,
+        1478.5,
+        2104.8
+      ]
+    },
+    {
+      "label": "figure",
+      "score": 0.9217967987060547,
+      "box": [
+        216.2,
+        692.8,
+        1678.9,
+        1368.9
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.9162442684173584,
+      "box": [
+        991.3,
+        120.9,
+        1473.4,
+        148.7
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.8087505102157593,
+      "box": [
+        1843.1,
+        0.6,
+        1917.0,
+        225.8
+      ]
+    },
+    {
+      "label": "table_footnote",
+      "score": 0.8000870943069458,
+      "box": [
+        213.4,
+        1389.0,
+        770.6,
+        1419.5
+      ]
+    },
+    {
+      "label": "figure_caption",
+      "score": 0.7610733509063721,
+      "box": [
+        206.9,
+        598.6,
+        1365.4,
+        639.2
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.44802284240722656,
+      "box": [
+        1676.3,
+        2335.9,
+        1709.3,
+        2362.1
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.40578997135162354,
+      "box": [
+        1676.5,
+        2336.0,
+        1709.4,
+        2362.1
+      ]
+    }
+  ]
+}
