@@ -1,0 +1,75 @@
+{
+  "model": "rapidlayout-pp_layout_publaynet",
+  "meta": {
+    "model_type": "PP_LAYOUT_PUBLAYNET",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.167
+  },
+  "num_detections": 6,
+  "class_counts": {
+    "figure": 2,
+    "text": 4
+  },
+  "detections": [
+    {
+      "label": "figure",
+      "score": 0.9217469692230225,
+      "box": [
+        289.2,
+        1256.5,
+        1597.7,
+        2029.4
+      ]
+    },
+    {
+      "label": "figure",
+      "score": 0.9017452001571655,
+      "box": [
+        286.8,
+        277.3,
+        1610.6,
+        951.6
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.8374408483505249,
+      "box": [
+        307.6,
+        983.2,
+        1616.0,
+        1062.3
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.8102929592132568,
+      "box": [
+        284.4,
+        1084.4,
+        1349.1,
+        1149.4
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.7843447923660278,
+      "box": [
+        316.9,
+        2067.0,
+        1607.8,
+        2142.7
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.45630401372909546,
+      "box": [
+        430.8,
+        2168.2,
+        1133.0,
+        2230.6
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "model": "rapidlayout-doclayout_docstructbench",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSTRUCTBENCH",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.756
+  },
+  "num_detections": 8,
+  "class_counts": {
+    "figure": 2,
+    "figure_caption": 3,
+    "abandon": 1,
+    "plain text": 2
+  },
+  "detections": [
+    {
+      "label": "figure",
+      "score": 0.9594507217407227,
+      "box": [
+        288.1,
+        274.5,
+        1614.7,
+        955.0
+      ]
+    },
+    {
+      "label": "figure",
+      "score": 0.9569895267486572,
+      "box": [
+        285.8,
+        1250.9,
+        1605.0,
+        2032.4
+      ]
+    },
+    {
+      "label": "figure_caption",
+      "score": 0.9260144233703613,
+      "box": [
+        307.4,
+        985.9,
+        1607.1,
+        1060.2
+      ]
+    },
+    {
+      "label": "figure_caption",
+      "score": 0.9208099842071533,
+      "box": [
+        315.4,
+        2067.6,
+        1598.9,
+        2142.6
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.8735171556472778,
+      "box": [
+        943.8,
+        2336.9,
+        974.4,
+        2364.8
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.8281874060630798,
+      "box": [
+        277.4,
+        1087.1,
+        1349.6,
+        1149.4
+      ]
+    },
+    {
+      "label": "figure_caption",
+      "score": 0.6073664426803589,
+      "box": [
+        279.0,
+        115.5,
+        506.7,
+        189.0
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.5208961963653564,
+      "box": [
+        278.0,
+        2169.9,
+        1349.4,
+        2231.6
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "model": "rapidlayout-doclayout_docsynth",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSYNTH",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.715
+  },
+  "num_detections": 2,
+  "class_counts": {
+    "Page-footer": 1,
+    "Table": 1
+  },
+  "detections": [
+    {
+      "label": "Page-footer",
+      "score": 0.9299619197845459,
+      "box": [
+        1664.0,
+        2426.1,
+        1850.2,
+        2461.5
+      ]
+    },
+    {
+      "label": "Table",
+      "score": 0.8472024202346802,
+      "box": [
+        71.5,
+        117.1,
+        1178.6,
+        2414.3
+      ]
+    }
+  ]
+}

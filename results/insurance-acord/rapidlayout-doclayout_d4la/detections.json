@@ -1,0 +1,118 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.736
+  },
+  "num_detections": 10,
+  "class_counts": {
+    "Table": 3,
+    "PageFooter": 2,
+    "OtherText": 1,
+    "Figure": 1,
+    "TableName": 3
+  },
+  "detections": [
+    {
+      "label": "Table",
+      "score": 0.98772132396698,
+      "box": [
+        54.8,
+        790.2,
+        1865.7,
+        2027.8
+      ]
+    },
+    {
+      "label": "Table",
+      "score": 0.9797661900520325,
+      "box": [
+        56.8,
+        82.6,
+        1866.6,
+        751.1
+      ]
+    },
+    {
+      "label": "Table",
+      "score": 0.9606454372406006,
+      "box": [
+        59.6,
+        2064.7,
+        1862.5,
+        2329.0
+      ]
+    },
+    {
+      "label": "PageFooter",
+      "score": 0.855191707611084,
+      "box": [
+        583.5,
+        2373.1,
+        1333.3,
+        2401.1
+      ]
+    },
+    {
+      "label": "PageFooter",
+      "score": 0.7544738054275513,
+      "box": [
+        66.9,
+        2372.3,
+        321.8,
+        2400.7
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.6499916911125183,
+      "box": [
+        1125.2,
+        2335.5,
+        1853.3,
+        2364.0
+      ]
+    },
+    {
+      "label": "Figure",
+      "score": 0.5745789408683777,
+      "box": [
+        68.0,
+        54.9,
+        284.0,
+        143.9
+      ]
+    },
+    {
+      "label": "TableName",
+      "score": 0.5434582233428955,
+      "box": [
+        969.6,
+        2037.6,
+        1179.2,
+        2061.9
+      ]
+    },
+    {
+      "label": "TableName",
+      "score": 0.4577012360095978,
+      "box": [
+        495.4,
+        759.6,
+        802.9,
+        783.6
+      ]
+    },
+    {
+      "label": "TableName",
+      "score": 0.41706582903862,
+      "box": [
+        1330.0,
+        759.8,
+        1590.2,
+        783.4
+      ]
+    }
+  ]
+}

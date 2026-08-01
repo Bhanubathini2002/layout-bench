@@ -1,0 +1,68 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.709
+  },
+  "num_detections": 5,
+  "class_counts": {
+    "PageFooter": 1,
+    "DocTitle": 1,
+    "RegionList": 1,
+    "ParaText": 1,
+    "RegionTitle": 1
+  },
+  "detections": [
+    {
+      "label": "PageFooter",
+      "score": 0.7837585210800171,
+      "box": [
+        1076.4,
+        2411.6,
+        1736.8,
+        2435.4
+      ]
+    },
+    {
+      "label": "DocTitle",
+      "score": 0.5911206007003784,
+      "box": [
+        179.1,
+        181.2,
+        950.2,
+        208.3
+      ]
+    },
+    {
+      "label": "RegionList",
+      "score": 0.5800641179084778,
+      "box": [
+        185.7,
+        325.0,
+        1738.5,
+        2257.4
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.48993486166000366,
+      "box": [
+        182.9,
+        255.6,
+        1608.4,
+        289.9
+      ]
+    },
+    {
+      "label": "RegionTitle",
+      "score": 0.45904794335365295,
+      "box": [
+        184.4,
+        255.6,
+        1610.4,
+        289.4
+      ]
+    }
+  ]
+}

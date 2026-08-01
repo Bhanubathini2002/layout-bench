@@ -1,0 +1,35 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.7
+  },
+  "num_detections": 2,
+  "class_counts": {
+    "Table": 1,
+    "PageNumber": 1
+  },
+  "detections": [
+    {
+      "label": "Table",
+      "score": 0.9394341111183167,
+      "box": [
+        70.1,
+        55.1,
+        1177.2,
+        2362.5
+      ]
+    },
+    {
+      "label": "PageNumber",
+      "score": 0.9211941361427307,
+      "box": [
+        1663.8,
+        2426.7,
+        1843.1,
+        2459.7
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "model": "rapidlayout-pp_doc_layoutv2",
+  "meta": {
+    "model_type": "PP_DOC_LAYOUTV2",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.677
+  },
+  "num_detections": 9,
+  "class_counts": {
+    "text": 3,
+    "chart": 1,
+    "figure_title": 1,
+    "header": 1,
+    "aside_text": 1,
+    "number": 1,
+    "vision_footnote": 1
+  },
+  "detections": [
+    {
+      "label": "text",
+      "score": 0.9885886311531067,
+      "box": [
+        201.0,
+        1469.0,
+        1481.0,
+        1877.0
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.9878574013710022,
+      "box": [
+        201.0,
+        197.0,
+        1482.0,
+        564.0
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.9851658344268799,
+      "box": [
+        203.0,
+        1902.0,
+        1481.0,
+        2108.0
+      ]
+    },
+    {
+      "label": "chart",
+      "score": 0.9677425026893616,
+      "box": [
+        211.0,
+        690.0,
+        1696.0,
+        1367.0
+      ]
+    },
+    {
+      "label": "figure_title",
+      "score": 0.9503665566444397,
+      "box": [
+        205.0,
+        598.0,
+        1380.0,
+        641.0
+      ]
+    },
+    {
+      "label": "header",
+      "score": 0.9395129680633545,
+      "box": [
+        987.0,
+        118.0,
+        1475.0,
+        149.0
+      ]
+    },
+    {
+      "label": "aside_text",
+      "score": 0.8815439939498901,
+      "box": [
+        1860.0,
+        71.0,
+        1893.0,
+        206.0
+      ]
+    },
+    {
+      "label": "number",
+      "score": 0.8802969455718994,
+      "box": [
+        1672.0,
+        2333.0,
+        1711.0,
+        2364.0
+      ]
+    },
+    {
+      "label": "vision_footnote",
+      "score": 0.8204057812690735,
+      "box": [
+        207.0,
+        1388.0,
+        773.0,
+        1421.0
+      ]
+    }
+  ]
+}

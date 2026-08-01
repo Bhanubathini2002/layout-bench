@@ -1,0 +1,90 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.13
+  },
+  "num_detections": 7,
+  "class_counts": {
+    "Figure": 1,
+    "PageNumber": 1,
+    "PageHeader": 1,
+    "OtherText": 1,
+    "DocTitle": 1,
+    "PageFooter": 1,
+    "RegionTitle": 1
+  },
+  "detections": [
+    {
+      "label": "Figure",
+      "score": 0.9295382499694824,
+      "box": [
+        253.8,
+        442.8,
+        2248.8,
+        1431.7
+      ]
+    },
+    {
+      "label": "PageNumber",
+      "score": 0.8052414655685425,
+      "box": [
+        1191.9,
+        1642.1,
+        1289.9,
+        1666.2
+      ]
+    },
+    {
+      "label": "PageHeader",
+      "score": 0.802047610282898,
+      "box": [
+        172.2,
+        152.4,
+        630.2,
+        178.0
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.6959918141365051,
+      "box": [
+        2088.6,
+        1456.5,
+        2317.8,
+        1479.4
+      ]
+    },
+    {
+      "label": "DocTitle",
+      "score": 0.6430889964103699,
+      "box": [
+        168.3,
+        259.3,
+        1887.5,
+        306.9
+      ]
+    },
+    {
+      "label": "PageFooter",
+      "score": 0.5691217184066772,
+      "box": [
+        2177.8,
+        1620.6,
+        2315.0,
+        1679.2
+      ]
+    },
+    {
+      "label": "RegionTitle",
+      "score": 0.46891340613365173,
+      "box": [
+        658.1,
+        363.8,
+        1822.7,
+        401.6
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "model": "docling-egret-large",
+  "meta": {
+    "repo": "docling-project/docling-layout-egret-large",
+    "threshold": 0.5,
+    "device": "cpu",
+    "num_classes": 17
+  },
+  "num_detections": 11,
+  "class_counts": {
+    "text": 5,
+    "picture": 1,
+    "caption": 1,
+    "page_header": 2,
+    "page_footer": 1,
+    "key_value_region": 1
+  },
+  "detections": [
+    {
+      "label": "text",
+      "score": 0.9932631850242615,
+      "box": [
+        209.3,
+        200.1,
+        1472.8,
+        557.4
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.9929623007774353,
+      "box": [
+        209.3,
+        1472.2,
+        1471.7,
+        1869.7
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.9916759729385376,
+      "box": [
+        210.0,
+        1906.6,
+        1471.3,
+        2099.6
+      ]
+    },
+    {
+      "label": "picture",
+      "score": 0.9734651446342468,
+      "box": [
+        208.9,
+        688.2,
+        1697.0,
+        1368.7
+      ]
+    },
+    {
+      "label": "caption",
+      "score": 0.9438392519950867,
+      "box": [
+        210.9,
+        602.7,
+        1371.9,
+        634.1
+      ]
+    },
+    {
+      "label": "page_header",
+      "score": 0.926211953163147,
+      "box": [
+        990.6,
+        123.2,
+        1469.3,
+        143.7
+      ]
+    },
+    {
+      "label": "page_footer",
+      "score": 0.9002237319946289,
+      "box": [
+        1675.0,
+        2335.8,
+        1705.5,
+        2359.1
+      ]
+    },
+    {
+      "label": "page_header",
+      "score": 0.8963699340820312,
+      "box": [
+        1859.3,
+        74.1,
+        1889.0,
+        198.7
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.848974883556366,
+      "box": [
+        217.1,
+        1392.2,
+        766.8,
+        1415.8
+      ]
+    },
+    {
+      "label": "key_value_region",
+      "score": 0.6846933364868164,
+      "box": [
+        211.1,
+        1392.2,
+        767.1,
+        1415.9
+      ]
+    },
+    {
+      "label": "text",
+      "score": 0.522851824760437,
+      "box": [
+        211.8,
+        1392.7,
+        290.0,
+        1413.3
+      ]
+    }
+  ]
+}

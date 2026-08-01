@@ -1,0 +1,24 @@
+{
+  "model": "rapidlayout-pp_layout_table",
+  "meta": {
+    "model_type": "PP_LAYOUT_TABLE",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.16
+  },
+  "num_detections": 1,
+  "class_counts": {
+    "table": 1
+  },
+  "detections": [
+    {
+      "label": "table",
+      "score": 0.5130773782730103,
+      "box": [
+        46.4,
+        190.3,
+        1866.7,
+        1795.4
+      ]
+    }
+  ]
+}

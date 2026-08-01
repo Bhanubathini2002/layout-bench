@@ -1,0 +1,129 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.633
+  },
+  "num_detections": 11,
+  "class_counts": {
+    "PageFooter": 1,
+    "RegionList": 1,
+    "RegionTitle": 3,
+    "ParaText": 2,
+    "TableName": 3,
+    "DocTitle": 1
+  },
+  "detections": [
+    {
+      "label": "PageFooter",
+      "score": 0.8667111396789551,
+      "box": [
+        783.8,
+        2396.8,
+        1146.7,
+        2422.3
+      ]
+    },
+    {
+      "label": "RegionList",
+      "score": 0.7619564533233643,
+      "box": [
+        151.0,
+        310.6,
+        1763.4,
+        1708.5
+      ]
+    },
+    {
+      "label": "RegionTitle",
+      "score": 0.6494351029396057,
+      "box": [
+        160.1,
+        1583.8,
+        742.1,
+        1616.5
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.6415302753448486,
+      "box": [
+        555.7,
+        1760.6,
+        1361.7,
+        1791.1
+      ]
+    },
+    {
+      "label": "RegionTitle",
+      "score": 0.5618147253990173,
+      "box": [
+        160.9,
+        1404.9,
+        411.3,
+        1436.5
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.5272722840309143,
+      "box": [
+        397.7,
+        226.6,
+        1556.9,
+        257.1
+      ]
+    },
+    {
+      "label": "TableName",
+      "score": 0.4950989782810211,
+      "box": [
+        159.8,
+        648.1,
+        335.1,
+        675.1
+      ]
+    },
+    {
+      "label": "TableName",
+      "score": 0.44969022274017334,
+      "box": [
+        161.0,
+        426.2,
+        289.7,
+        451.5
+      ]
+    },
+    {
+      "label": "TableName",
+      "score": 0.4352731704711914,
+      "box": [
+        274.2,
+        1050.1,
+        591.8,
+        1080.3
+      ]
+    },
+    {
+      "label": "RegionTitle",
+      "score": 0.4309979975223541,
+      "box": [
+        160.6,
+        914.7,
+        424.5,
+        946.1
+      ]
+    },
+    {
+      "label": "DocTitle",
+      "score": 0.4164939224720001,
+      "box": [
+        627.3,
+        192.9,
+        1292.9,
+        217.3
+      ]
+    }
+  ]
+}

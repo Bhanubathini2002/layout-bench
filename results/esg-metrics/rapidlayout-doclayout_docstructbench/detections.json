@@ -1,0 +1,171 @@
+{
+  "model": "rapidlayout-doclayout_docstructbench",
+  "meta": {
+    "model_type": "DOCLAYOUT_DOCSTRUCTBENCH",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.699
+  },
+  "num_detections": 15,
+  "class_counts": {
+    "figure": 2,
+    "abandon": 3,
+    "table": 1,
+    "figure_caption": 2,
+    "plain text": 1,
+    "title": 1,
+    "table_caption": 1,
+    "table_footnote": 4
+  },
+  "detections": [
+    {
+      "label": "figure",
+      "score": 0.9361318349838257,
+      "box": [
+        1213.1,
+        1116.3,
+        2065.6,
+        1296.2
+      ]
+    },
+    {
+      "label": "figure",
+      "score": 0.9278088808059692,
+      "box": [
+        1212.2,
+        683.6,
+        1577.7,
+        956.5
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.9074126482009888,
+      "box": [
+        416.7,
+        488.1,
+        759.1,
+        508.6
+      ]
+    },
+    {
+      "label": "table",
+      "score": 0.9050443768501282,
+      "box": [
+        416.6,
+        732.2,
+        1137.3,
+        1140.7
+      ]
+    },
+    {
+      "label": "figure_caption",
+      "score": 0.8946238160133362,
+      "box": [
+        1217.1,
+        635.5,
+        1451.6,
+        657.3
+      ]
+    },
+    {
+      "label": "plain text",
+      "score": 0.8702033758163452,
+      "box": [
+        417.8,
+        642.4,
+        555.5,
+        669.2
+      ]
+    },
+    {
+      "label": "title",
+      "score": 0.8692229986190796,
+      "box": [
+        418.7,
+        586.4,
+        991.2,
+        636.1
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.7610260248184204,
+      "box": [
+        1788.3,
+        1415.3,
+        2063.8,
+        1435.0
+      ]
+    },
+    {
+      "label": "abandon",
+      "score": 0.6324703693389893,
+      "box": [
+        416.6,
+        1415.6,
+        541.4,
+        1435.2
+      ]
+    },
+    {
+      "label": "table_caption",
+      "score": 0.6119922399520874,
+      "box": [
+        420.0,
+        700.6,
+        525.8,
+        730.6
+      ]
+    },
+    {
+      "label": "figure_caption",
+      "score": 0.5309205651283264,
+      "box": [
+        1217.0,
+        1050.7,
+        1395.9,
+        1071.8
+      ]
+    },
+    {
+      "label": "table_footnote",
+      "score": 0.4738866686820984,
+      "box": [
+        1218.0,
+        1324.7,
+        1508.3,
+        1342.3
+      ]
+    },
+    {
+      "label": "table_footnote",
+      "score": 0.45083439350128174,
+      "box": [
+        1218.0,
+        1347.1,
+        1578.8,
+        1363.4
+      ]
+    },
+    {
+      "label": "table_footnote",
+      "score": 0.43816906213760376,
+      "box": [
+        1216.9,
+        1324.5,
+        1581.2,
+        1364.7
+      ]
+    },
+    {
+      "label": "table_footnote",
+      "score": 0.4311745762825012,
+      "box": [
+        415.7,
+        1262.7,
+        1115.7,
+        1291.5
+      ]
+    }
+  ]
+}

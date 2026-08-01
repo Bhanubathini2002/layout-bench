@@ -1,0 +1,130 @@
+{
+  "model": "rapidlayout-doclayout_d4la",
+  "meta": {
+    "model_type": "DOCLAYOUT_D4LA",
+    "conf_thresh": 0.4,
+    "elapse_s": 1.766
+  },
+  "num_detections": 11,
+  "class_counts": {
+    "RegionList": 1,
+    "Table": 1,
+    "OtherText": 4,
+    "DocTitle": 1,
+    "ParaText": 2,
+    "TableName": 1,
+    "Figure": 1
+  },
+  "detections": [
+    {
+      "label": "RegionList",
+      "score": 0.9414433240890503,
+      "box": [
+        420.6,
+        740.0,
+        1129.8,
+        1127.6
+      ]
+    },
+    {
+      "label": "Table",
+      "score": 0.8076534867286682,
+      "box": [
+        1217.6,
+        1120.8,
+        2060.1,
+        1286.3
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.7723113894462585,
+      "box": [
+        1218.3,
+        1326.5,
+        1545.6,
+        1361.2
+      ]
+    },
+    {
+      "label": "DocTitle",
+      "score": 0.7707734107971191,
+      "box": [
+        420.3,
+        588.3,
+        988.0,
+        665.7
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.737341046333313,
+      "box": [
+        1217.5,
+        1051.8,
+        1396.2,
+        1073.1
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.611657440662384,
+      "box": [
+        1219.7,
+        638.1,
+        1449.5,
+        655.8
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.6013674736022949,
+      "box": [
+        1483.2,
+        882.1,
+        1571.9,
+        942.9
+      ]
+    },
+    {
+      "label": "OtherText",
+      "score": 0.5916488170623779,
+      "box": [
+        418.4,
+        491.4,
+        755.5,
+        505.5
+      ]
+    },
+    {
+      "label": "TableName",
+      "score": 0.5285909175872803,
+      "box": [
+        421.8,
+        702.2,
+        523.7,
+        729.1
+      ]
+    },
+    {
+      "label": "Figure",
+      "score": 0.49165183305740356,
+      "box": [
+        1217.5,
+        692.7,
+        1570.3,
+        945.7
+      ]
+    },
+    {
+      "label": "ParaText",
+      "score": 0.45505577325820923,
+      "box": [
+        1230.5,
+        1075.8,
+        1801.6,
+        1091.6
+      ]
+    }
+  ]
+}

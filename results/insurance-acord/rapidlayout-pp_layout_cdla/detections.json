@@ -1,0 +1,99 @@
+{
+  "model": "rapidlayout-pp_layout_cdla",
+  "meta": {
+    "model_type": "PP_LAYOUT_CDLA",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.172
+  },
+  "num_detections": 8,
+  "class_counts": {
+    "table": 2,
+    "table_caption": 1,
+    "header": 2,
+    "reference": 1,
+    "figure": 1,
+    "equation": 1
+  },
+  "detections": [
+    {
+      "label": "table",
+      "score": 0.9515931606292725,
+      "box": [
+        27.6,
+        137.2,
+        1884.3,
+        1783.4
+      ]
+    },
+    {
+      "label": "table",
+      "score": 0.8130751252174377,
+      "box": [
+        26.9,
+        2020.9,
+        1893.4,
+        2354.4
+      ]
+    },
+    {
+      "label": "table_caption",
+      "score": 0.6156063079833984,
+      "box": [
+        431.2,
+        87.6,
+        1439.3,
+        134.7
+      ]
+    },
+    {
+      "label": "header",
+      "score": 0.5977020263671875,
+      "box": [
+        64.5,
+        58.6,
+        278.8,
+        145.0
+      ]
+    },
+    {
+      "label": "reference",
+      "score": 0.5432379841804504,
+      "box": [
+        67.3,
+        2373.8,
+        320.9,
+        2398.6
+      ]
+    },
+    {
+      "label": "figure",
+      "score": 0.5324608683586121,
+      "box": [
+        22.9,
+        2013.0,
+        1885.0,
+        2351.1
+      ]
+    },
+    {
+      "label": "header",
+      "score": 0.49905046820640564,
+      "box": [
+        582.3,
+        87.9,
+        1284.5,
+        131.4
+      ]
+    },
+    {
+      "label": "equation",
+      "score": 0.40487176179885864,
+      "box": [
+        441.9,
+        85.8,
+        1443.0,
+        135.9
+      ]
+    }
+  ]
+}

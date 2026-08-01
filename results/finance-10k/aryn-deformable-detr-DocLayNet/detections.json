@@ -1,0 +1,78 @@
+{
+  "model": "aryn-deformable-detr-DocLayNet",
+  "meta": {
+    "repo": "Aryn/deformable-detr-DocLayNet",
+    "threshold": 0.5,
+    "device": "cpu",
+    "num_classes": 12
+  },
+  "num_detections": 6,
+  "class_counts": {
+    "Table": 1,
+    "Page-footer": 1,
+    "Text": 2,
+    "Section-header": 2
+  },
+  "detections": [
+    {
+      "label": "Table",
+      "score": 0.8907178640365601,
+      "box": [
+        153.4,
+        309.9,
+        1764.4,
+        1710.6
+      ]
+    },
+    {
+      "label": "Page-footer",
+      "score": 0.8765280246734619,
+      "box": [
+        785.1,
+        2395.9,
+        1148.1,
+        2422.7
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.828244686126709,
+      "box": [
+        556.9,
+        1760.2,
+        1361.6,
+        1789.9
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.6122004389762878,
+      "box": [
+        626.8,
+        192.9,
+        1292.0,
+        222.1
+      ]
+    },
+    {
+      "label": "Section-header",
+      "score": 0.5968791246414185,
+      "box": [
+        891.0,
+        132.0,
+        1024.7,
+        161.1
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.5369829535484314,
+      "box": [
+        361.8,
+        228.0,
+        1557.2,
+        256.2
+      ]
+    }
+  ]
+}

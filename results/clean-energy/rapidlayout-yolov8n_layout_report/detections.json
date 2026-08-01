@@ -1,0 +1,100 @@
+{
+  "model": "rapidlayout-yolov8n_layout_report",
+  "meta": {
+    "model_type": "YOLOV8N_LAYOUT_REPORT",
+    "conf_thresh": 0.4,
+    "elapse_s": 0.066
+  },
+  "num_detections": 8,
+  "class_counts": {
+    "Header": 1,
+    "Text": 1,
+    "Figure": 2,
+    "Footer": 1,
+    "Figure caption": 1,
+    "Title": 1,
+    "Table": 1
+  },
+  "detections": [
+    {
+      "label": "Header",
+      "score": 0.7820141911506653,
+      "box": [
+        167.9,
+        151.9,
+        634.8,
+        177.4
+      ]
+    },
+    {
+      "label": "Text",
+      "score": 0.7663028240203857,
+      "box": [
+        160.2,
+        1501.9,
+        1617.1,
+        1533.8
+      ]
+    },
+    {
+      "label": "Figure",
+      "score": 0.7581769227981567,
+      "box": [
+        141.0,
+        431.7,
+        2290.1,
+        1496.6
+      ]
+    },
+    {
+      "label": "Footer",
+      "score": 0.7325755953788757,
+      "box": [
+        1184.0,
+        1639.4,
+        1297.5,
+        1669.5
+      ]
+    },
+    {
+      "label": "Figure caption",
+      "score": 0.723068356513977,
+      "box": [
+        655.7,
+        363.9,
+        1831.3,
+        399.9
+      ]
+    },
+    {
+      "label": "Title",
+      "score": 0.7114729881286621,
+      "box": [
+        162.5,
+        259.8,
+        1883.2,
+        306.3
+      ]
+    },
+    {
+      "label": "Table",
+      "score": 0.683505654335022,
+      "box": [
+        127.3,
+        430.1,
+        2338.4,
+        1489.7
+      ]
+    },
+    {
+      "label": "Figure",
+      "score": 0.415905237197876,
+      "box": [
+        2157.9,
+        1577.7,
+        2424.7,
+        1690.7
+      ]
+    }
+  ]
+}
